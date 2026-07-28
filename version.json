@@ -1,0 +1,7 @@
+{
+  "versionCode": 26,
+  "versionName": "2.1.0",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.0/AndroidVideo.apk",
+  "changelog": "• Modo oscuro\n• Reproductor con controles y pantalla completa\n• Continuar viendo",
+  "required": false
+}
