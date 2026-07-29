@@ -2,7 +2,6 @@
   "versionCode": 27,
   "versionName": "2.1.1",
   "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.1/AndroidVideo.apk",
-  "changelog": " Arreglo de cierre/congelamiento al reproducir en Android TV box
-• Cast: pausa el teléfono y control remoto (⏪/⏯/⏩)",
+  "changelog": " Arreglo de cierre/congelamiento al reproducir en Android TV box \n• Cast: pausa el teléfono y control remoto (⏪/⏯/⏩)",
   "required": false
 }
