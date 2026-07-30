@@ -1,7 +1,7 @@
 {
-  "versionCode": 31,
-  "versionName": "2.1.5",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.5/AndroidVideo.apk",
-  "changelog": "• Continuar viendo: agrupado por serie y abre directo al episodio (retoma donde ibas)\n• Capítulos vistos: se marcan al terminar y con un ícono; se ven en la lista\n• Android TV: Back sale de pantalla completa, foco de controles más visible, margen de bordes configurable\n• Se quitó el destello blanco al abrir la app",
+  "versionCode": 32,
+  "versionName": "2.1.6",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.6/AndroidVideo.apk",
+  "changelog": "• Detalle de anime: sinopsis, géneros, relacionados y recomendados\n• Favoritos / Mi lista (♥) con carrusel en el inicio\n• Nuevo apartado Estrenos: calendario semanal de emisión\n• Botón 'Ver siguiente' cerca del final (tiempo configurable) que marca el episodio como visto\n• Android TV: menú lateral en vez de pestañas",
   "required": false
 }
