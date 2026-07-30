@@ -1,7 +1,7 @@
 {
-  "versionCode": 29,
-  "versionName": "2.1.3",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.3/AndroidVideo.apk",
-  "changelog": "• Estado y agenda de emisión en cada anime (día de estreno y próximo episodio)\n• 'Ver más' en cada categoría del inicio → lista completa en grilla\n• Navegación mejorada: al volver de un título se conserva la categoría/búsqueda",
+  "versionCode": 30,
+  "versionName": "2.1.4",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.4/AndroidVideo.apk",
+  "changelog": "• Bloqueo de publicidad en el reproductor web (redes de ads conocidas)\n• Android TV: margen seguro para que no se corten los bordes (overscan)",
   "required": false
 }
