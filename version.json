@@ -1,7 +1,7 @@
 {
-  "versionCode": 30,
-  "versionName": "2.1.4",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.4/AndroidVideo.apk",
-  "changelog": "• Bloqueo de publicidad en el reproductor web (redes de ads conocidas)\n• Android TV: margen seguro para que no se corten los bordes (overscan)",
+  "versionCode": 31,
+  "versionName": "2.1.5",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.5/AndroidVideo.apk",
+  "changelog": "• Continuar viendo: agrupado por serie y abre directo al episodio (retoma donde ibas)\n• Capítulos vistos: se marcan al terminar y con un ícono; se ven en la lista\n• Android TV: Back sale de pantalla completa, foco de controles más visible, margen de bordes configurable\n• Se quitó el destello blanco al abrir la app",
   "required": false
 }
