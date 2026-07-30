@@ -1,7 +1,7 @@
 {
-  "versionCode": 32,
-  "versionName": "2.1.6",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.6/AndroidVideo.apk",
-  "changelog": "• Detalle de anime: sinopsis, géneros, relacionados y recomendados\n• Favoritos / Mi lista (♥) con carrusel en el inicio\n• Nuevo apartado Estrenos: calendario semanal de emisión\n• Botón 'Ver siguiente' cerca del final (tiempo configurable) que marca el episodio como visto\n• Android TV: menú lateral en vez de pestañas",
+  "versionCode": 33,
+  "versionName": "2.1.7",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.7/AndroidVideo.apk",
+  "changelog": "• Descargas offline: bajá episodios y velos sin conexión (con notificación de progreso)\n• Pestaña Descargas: estado, avance en MB y eliminar; tocar abre el capítulo\n• El avance de descarga también se ve en la pantalla del episodio\n• Android TV: se corrigió el salto al navegar entre carátulas",
   "required": false
 }
