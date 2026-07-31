@@ -1,7 +1,7 @@
 {
-  "versionCode": 33,
-  "versionName": "2.1.7",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.7/AndroidVideo.apk",
-  "changelog": "• Descargas offline: bajá episodios y velos sin conexión (con notificación de progreso)\n• Pestaña Descargas: estado, avance en MB y eliminar; tocar abre el capítulo\n• El avance de descarga también se ve en la pantalla del episodio\n• Android TV: se corrigió el salto al navegar entre carátulas",
+  "versionCode": 34,
+  "versionName": "2.1.8",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.8/AndroidVideo.apk",
+  "changelog": "TRST 2.1.8\n\nNovedades\n- Epsilon en el reproductor nativo: ahora Epsilon reproduce con los controles nativos (barra, pantalla completa, cast, botón Ver siguiente) y permite descargarlo offline, igual que los demás servidores.\n- Detalle de anime enriquecido: sinopsis, géneros, relacionados y recomendados.\n- Favoritos / Mi lista, con su propia sección.\n- Calendario de estrenos.\n- Descargas offline: descarga en segundo plano (sigue con la app cerrada + notificación), reproducción de la copia local y avance de descarga visible en el episodio.\n- Botón flotante Ver siguiente episodio al final (tiempo configurable).\n- Episodios vistos, badge de calificación y de cantidad de episodios, portadas más grandes.\n- Navegación por menú lateral en Android TV + margen de pantalla (overscan) configurable.\n- Bloqueo de anuncios y de redirecciones al tocar reproducir.\n- Botones Info y Descargar como icono en la tarjeta de servidor.\n- Correcciones de reproducción (crash por OOM) y varios ajustes de UX.",
   "required": false
 }
