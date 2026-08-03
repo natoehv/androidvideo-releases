@@ -1,7 +1,7 @@
 {
-  "versionCode": 37,
-  "versionName": "2.1.11",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.11/AndroidVideo.apk",
-  "changelog": "TRST 2.1.11\n\nNovedades\n- Pantalla completa fluida: al maximizar/minimizar el video ya no se pone en negro ni arranca de cero; solo cambia el tamano.\n- Auto-rotacion en el celular: al maximizar la vista gira a horizontal y al salir vuelve a la normalidad.\n- Casting estable con el telefono bloqueado: el envio a la TV sigue funcionando aunque bloquees el celu (servicio en segundo plano con notificacion).\n- El avance de lo que ves por casting se sincroniza con 'Continuar viendo' del telefono.\n- Reproductor en el celular: no se pierde el boton de pantalla completa en vertical y el play central no se superpone con la barra de avance.\n- Multi-fuente: base para tener varios origenes de contenido; el selector de fuente esta en Configuracion (por ahora Kwai).\n- Botones de servidor (descargar/info) como icono.",
+  "versionCode": 38,
+  "versionName": "2.1.12",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.12/AndroidVideo.apk",
+  "changelog": "TRST 2.1.12\n\nNovedades\n- Nuevo origen de contenido: Cinecalidad (películas). Se elige en Configuración > Fuente de contenido.\n  Catálogo con scroll infinito, búsqueda y reproducción por Filemoon / Voe / Doodstream.\n- Base multi-fuente ampliada para sumar más orígenes en el futuro.\n- Correcciones varias (carga de imágenes de películas, mensaje de sincronización al cambiar de fuente).",
   "required": false
 }
