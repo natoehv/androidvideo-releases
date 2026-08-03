@@ -1,7 +1,7 @@
 {
-  "versionCode": 36,
-  "versionName": "2.1.10",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.10/AndroidVideo.apk",
-  "changelog": "TRST 2.1.10\n\nNovedades\n- El casting sigue funcionando aunque bloquees el teléfono: ahora corre en segundo plano con una notificación fija, así el envío a la TV no se corta al apagar la pantalla.\n- Reproductor en el teléfono (vertical): ya no se pierde el botón de pantalla completa y el botón de play central no se superpone con la barra de avance.\n- Se sincroniza el avance de lo que ves en la TV (casting) con 'Continuar viendo' del teléfono.",
+  "versionCode": 37,
+  "versionName": "2.1.11",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.11/AndroidVideo.apk",
+  "changelog": "TRST 2.1.11\n\nNovedades\n- Pantalla completa fluida: al maximizar/minimizar el video ya no se pone en negro ni arranca de cero; solo cambia el tamano.\n- Auto-rotacion en el celular: al maximizar la vista gira a horizontal y al salir vuelve a la normalidad.\n- Casting estable con el telefono bloqueado: el envio a la TV sigue funcionando aunque bloquees el celu (servicio en segundo plano con notificacion).\n- El avance de lo que ves por casting se sincroniza con 'Continuar viendo' del telefono.\n- Reproductor en el celular: no se pierde el boton de pantalla completa en vertical y el play central no se superpone con la barra de avance.\n- Multi-fuente: base para tener varios origenes de contenido; el selector de fuente esta en Configuracion (por ahora Kwai).\n- Botones de servidor (descargar/info) como icono.",
   "required": false
 }
