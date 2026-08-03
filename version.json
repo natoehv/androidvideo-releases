@@ -1,7 +1,7 @@
 {
-  "versionCode": 35,
-  "versionName": "2.1.9",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.9/AndroidVideo.apk",
-  "changelog": "TRST 2.1.9\n\nCorrecciones\n- Ya no se congela al reproducir en el teléfono: la pantalla se mantiene encendida y la reproducción/red no se suspende al pasar los segundos.\n- Casting estable con el teléfono bloqueado: el envío a la pantalla sigue cargando aunque bloquees el celu (antes se detenía hasta desbloquear).\n- Autoclick en el reproductor web: arranca el episodio solo, sin tener que tocar el botón de play del embed.\n- Barra de progreso siempre visible en el reproductor del teléfono, para ver el avance del episodio en todo momento.",
+  "versionCode": 36,
+  "versionName": "2.1.10",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.10/AndroidVideo.apk",
+  "changelog": "TRST 2.1.10\n\nNovedades\n- El casting sigue funcionando aunque bloquees el teléfono: ahora corre en segundo plano con una notificación fija, así el envío a la TV no se corta al apagar la pantalla.\n- Reproductor en el teléfono (vertical): ya no se pierde el botón de pantalla completa y el botón de play central no se superpone con la barra de avance.\n- Se sincroniza el avance de lo que ves en la TV (casting) con 'Continuar viendo' del teléfono.",
   "required": false
 }
