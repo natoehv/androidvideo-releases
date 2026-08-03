@@ -1,7 +1,7 @@
 {
-  "versionCode": 34,
-  "versionName": "2.1.8",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.8/AndroidVideo.apk",
-  "changelog": "TRST 2.1.8\n\nNovedades\n- Epsilon en el reproductor nativo: ahora Epsilon reproduce con los controles nativos (barra, pantalla completa, cast, botón Ver siguiente) y permite descargarlo offline, igual que los demás servidores.\n- Detalle de anime enriquecido: sinopsis, géneros, relacionados y recomendados.\n- Favoritos / Mi lista, con su propia sección.\n- Calendario de estrenos.\n- Descargas offline: descarga en segundo plano (sigue con la app cerrada + notificación), reproducción de la copia local y avance de descarga visible en el episodio.\n- Botón flotante Ver siguiente episodio al final (tiempo configurable).\n- Episodios vistos, badge de calificación y de cantidad de episodios, portadas más grandes.\n- Navegación por menú lateral en Android TV + margen de pantalla (overscan) configurable.\n- Bloqueo de anuncios y de redirecciones al tocar reproducir.\n- Botones Info y Descargar como icono en la tarjeta de servidor.\n- Correcciones de reproducción (crash por OOM) y varios ajustes de UX.",
+  "versionCode": 35,
+  "versionName": "2.1.9",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.9/AndroidVideo.apk",
+  "changelog": "TRST 2.1.9\n\nCorrecciones\n- Ya no se congela al reproducir en el teléfono: la pantalla se mantiene encendida y la reproducción/red no se suspende al pasar los segundos.\n- Casting estable con el teléfono bloqueado: el envío a la pantalla sigue cargando aunque bloquees el celu (antes se detenía hasta desbloquear).\n- Autoclick en el reproductor web: arranca el episodio solo, sin tener que tocar el botón de play del embed.\n- Barra de progreso siempre visible en el reproductor del teléfono, para ver el avance del episodio en todo momento.",
   "required": false
 }
