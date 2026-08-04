@@ -1,7 +1,7 @@
 {
-  "versionCode": 43,
-  "versionName": "2.1.17",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.17/AndroidVideo.apk",
-  "changelog": "• Corrige la búsqueda de subtítulos en series (matcheo correcto vía TMDB)\n• SubDL con API key corregida",
+  "versionCode": 44,
+  "versionName": "2.1.18",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.18/AndroidVideo.apk",
+  "changelog": "• Fix: los subtítulos ahora se cargan y muestran correctamente (SRT/VTT)",
   "required": false
 }
