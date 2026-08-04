@@ -1,7 +1,7 @@
 {
-  "versionCode": 45,
-  "versionName": "2.1.19",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.19/AndroidVideo.apk",
-  "changelog": "• El subtítulo cargado ahora también se envía al castear (Chromecast)",
+  "versionCode": 46,
+  "versionName": "2.1.20",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.20/AndroidVideo.apk",
+  "changelog": "• Fix: el video ya no se congela al cargar un subtítulo",
   "required": false
 }
