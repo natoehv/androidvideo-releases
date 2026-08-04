@@ -1,7 +1,7 @@
 {
-  "versionCode": 44,
-  "versionName": "2.1.18",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.18/AndroidVideo.apk",
-  "changelog": "• Fix: los subtítulos ahora se cargan y muestran correctamente (SRT/VTT)",
+  "versionCode": 45,
+  "versionName": "2.1.19",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.19/AndroidVideo.apk",
+  "changelog": "• El subtítulo cargado ahora también se envía al castear (Chromecast)",
   "required": false
 }
