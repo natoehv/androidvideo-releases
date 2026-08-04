@@ -1,7 +1,7 @@
 {
-  "versionCode": 41,
-  "versionName": "2.1.15",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.15/AndroidVideo.apk",
-  "changelog": "• Búsqueda de subtítulos por defecto con matcheo preciso vía TMDB (títulos en español)",
+  "versionCode": 42,
+  "versionName": "2.1.16",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.16/AndroidVideo.apk",
+  "changelog": "• SubDL como fuente de subtítulos por defecto (sin ads), con matcheo por TMDB",
   "required": false
 }
