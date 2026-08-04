@@ -1,7 +1,7 @@
 {
-  "versionCode": 46,
-  "versionName": "2.1.20",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.20/AndroidVideo.apk",
-  "changelog": "• Fix: el video ya no se congela al cargar un subtítulo",
+  "versionCode": 47,
+  "versionName": "2.1.21",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.21/AndroidVideo.apk",
+  "changelog": "• Subtítulos: se recuerdan por episodio y se pueden sincronizar (+/-)\n• Pantalla completa inmersiva (oculta la barra superior)\n• Doble toque para adelantar/retroceder 10s",
   "required": false
 }
