@@ -1,7 +1,7 @@
 {
-  "versionCode": 39,
-  "versionName": "2.1.13",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.13/AndroidVideo.apk",
-  "changelog": "• Nuevo origen de contenido: Cinecalidad AM (películas y series)\n• Series con episodios y películas, servidores online + torrent\n• Nuevo origen: Cinecalidad VG",
+  "versionCode": 40,
+  "versionName": "2.1.14",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.14/AndroidVideo.apk",
+  "changelog": "• Cast: se soluciona el cierre de la app al castear (MIUI)\n• Reproductor: reproduce descargas mp4/mkv/webm (no solo HLS)\n• Subtítulos: cargar .srt/.vtt y buscar online (OpenSubtitles/SubDL) con TMDB\n• Selector de pista de audio y subtítulos\n• Series: episodios agrupados por temporada\n• Continuar viendo / Mi lista ahora persisten tras reiniciar (Cinecalidad AM)\n• Servidores de descarga + lista blanca de dominios con botón Info",
   "required": false
 }
