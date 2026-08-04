@@ -1,7 +1,7 @@
 {
-  "versionCode": 38,
-  "versionName": "2.1.12",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.12/AndroidVideo.apk",
-  "changelog": "TRST 2.1.12\n\nNovedades\n- Nuevo origen de contenido: Cinecalidad (películas). Se elige en Configuración > Fuente de contenido.\n  Catálogo con scroll infinito, búsqueda y reproducción por Filemoon / Voe / Doodstream.\n- Base multi-fuente ampliada para sumar más orígenes en el futuro.\n- Correcciones varias (carga de imágenes de películas, mensaje de sincronización al cambiar de fuente).",
+  "versionCode": 39,
+  "versionName": "2.1.13",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.13/AndroidVideo.apk",
+  "changelog": "• Nuevo origen de contenido: Cinecalidad AM (películas y series)\n• Series con episodios y películas, servidores online + torrent\n• Nuevo origen: Cinecalidad VG",
   "required": false
 }
