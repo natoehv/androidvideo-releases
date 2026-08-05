@@ -1,7 +1,7 @@
 {
-  "versionCode": 55,
-  "versionName": "2.1.29",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.29/AndroidVideo.apk",
-  "changelog": "• Fix: reproducir una descarga mp4/mkv ya no da error de manifest",
+  "versionCode": 56,
+  "versionName": "2.1.30",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.30/AndroidVideo.apk",
+  "changelog": "• Cambiar la fuente de contenido también desde el menú de Android TV",
   "required": false
 }
