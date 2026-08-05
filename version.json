@@ -1,7 +1,7 @@
 {
-  "versionCode": 47,
-  "versionName": "2.1.21",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.21/AndroidVideo.apk",
-  "changelog": "• Subtítulos: se recuerdan por episodio y se pueden sincronizar (+/-)\n• Pantalla completa inmersiva (oculta la barra superior)\n• Doble toque para adelantar/retroceder 10s",
+  "versionCode": 48,
+  "versionName": "2.1.22",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.22/AndroidVideo.apk",
+  "changelog": "• Menú lateral (hamburguesa) en el teléfono: Buscar, Inicio, Estrenos, Favoritos, Descargas, Cuenta, Configuración",
   "required": false
 }
