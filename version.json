@@ -1,7 +1,7 @@
 {
-  "versionCode": 52,
-  "versionName": "2.1.26",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.26/AndroidVideo.apk",
-  "changelog": "• Fix: ahora se pueden descargar los archivos de descarga (mp4/mkv), antes fallaba",
+  "versionCode": 53,
+  "versionName": "2.1.27",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.27/AndroidVideo.apk",
+  "changelog": "• 'Abrir en VLC' para descargas (mp4/mkv), llevando el subtítulo cargado",
   "required": false
 }
