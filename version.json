@@ -1,7 +1,7 @@
 {
-  "versionCode": 54,
-  "versionName": "2.1.28",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.28/AndroidVideo.apk",
-  "changelog": "• Descargas: pausar/reanudar/cancelar mientras baja y eliminar cuando ya está",
+  "versionCode": 55,
+  "versionName": "2.1.29",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.29/AndroidVideo.apk",
+  "changelog": "• Fix: reproducir una descarga mp4/mkv ya no da error de manifest",
   "required": false
 }
