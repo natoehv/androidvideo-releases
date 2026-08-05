@@ -1,7 +1,7 @@
 {
-  "versionCode": 49,
-  "versionName": "2.1.23",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.23/AndroidVideo.apk",
-  "changelog": "• Cambiar la fuente de contenido desde el menú (encabezado del drawer → modal)",
+  "versionCode": 50,
+  "versionName": "2.1.24",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.24/AndroidVideo.apk",
+  "changelog": "• Botón de Cast en el inicio (arriba a la derecha), para conectar el Chromecast desde cualquier lado",
   "required": false
 }
