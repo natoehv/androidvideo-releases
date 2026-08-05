@@ -1,7 +1,7 @@
 {
-  "versionCode": 50,
-  "versionName": "2.1.24",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.24/AndroidVideo.apk",
-  "changelog": "• Botón de Cast en el inicio (arriba a la derecha), para conectar el Chromecast desde cualquier lado",
+  "versionCode": 51,
+  "versionName": "2.1.25",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.25/AndroidVideo.apk",
+  "changelog": "• Fix: castear una descarga (mkv) ya no cierra la app; el cast queda para streams online (HLS)",
   "required": false
 }
