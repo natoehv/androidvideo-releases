@@ -1,7 +1,7 @@
 {
-  "versionCode": 85,
-  "versionName": "2.1.59",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.59/AndroidVideo.apk",
-  "changelog": "v2.1.59: megaup selector .download-timer + flush de cookies (cf_clearance persistente)",
+  "versionCode": 86,
+  "versionName": "2.1.60",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.60/AndroidVideo.apk",
+  "changelog": "v2.1.60: waitFor until-visible (~30s) + overlay de estado del auto-skip de descarga",
   "required": false
 }
