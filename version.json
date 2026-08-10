@@ -1,7 +1,7 @@
 {
-  "versionCode": 82,
-  "versionName": "2.1.56",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.56/AndroidVideo.apk",
-  "changelog": "v2.1.56: fix crash al abrir con Cinecalidad si el fetch falla (get() de jsoup ahora tolerante a fallos)",
+  "versionCode": 83,
+  "versionName": "2.1.57",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.57/AndroidVideo.apk",
+  "changelog": "v2.1.57: Android TV - menú horizontal, foco con borde/gap y retorno al tab actual; rating en Ver más",
   "required": false
 }
