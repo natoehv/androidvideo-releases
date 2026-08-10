@@ -1,7 +1,7 @@
 {
-  "versionCode": 86,
-  "versionName": "2.1.60",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.60/AndroidVideo.apk",
-  "changelog": "v2.1.60: waitFor until-visible (~30s) + overlay de estado del auto-skip de descarga",
+  "versionCode": 87,
+  "versionName": "2.1.61",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.61/AndroidVideo.apk",
+  "changelog": "v2.1.61: Doramasflix episodios multi-temporada via Server Action + megaup espera boton habilitado",
   "required": false
 }
