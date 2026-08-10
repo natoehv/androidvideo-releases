@@ -1,7 +1,7 @@
 {
-  "versionCode": 83,
-  "versionName": "2.1.57",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.57/AndroidVideo.apk",
-  "changelog": "v2.1.57: Android TV - menú horizontal, foco con borde/gap y retorno al tab actual; rating en Ver más",
+  "versionCode": 84,
+  "versionName": "2.1.58",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.58/AndroidVideo.apk",
+  "changelog": "v2.1.58: reglas de descarga por plataforma (cinecalidad/megaup) + spinner de carga en el player",
   "required": false
 }
