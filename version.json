@@ -1,7 +1,7 @@
 {
-  "versionCode": 81,
-  "versionName": "2.1.55",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.55/AndroidVideo.apk",
-  "changelog": "v2.1.55: ad-block estilo AdGuard en el WebView via DoH (acotado a subrecursos de terceros)",
+  "versionCode": 82,
+  "versionName": "2.1.56",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.56/AndroidVideo.apk",
+  "changelog": "v2.1.56: fix crash al abrir con Cinecalidad si el fetch falla (get() de jsoup ahora tolerante a fallos)",
   "required": false
 }
