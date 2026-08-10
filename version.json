@@ -1,7 +1,7 @@
 {
-  "versionCode": 80,
-  "versionName": "2.1.54",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.54/AndroidVideo.apk",
-  "changelog": "v2.1.54: Doramasflix servidores reales via Server Action (descarga/cast en Voe/Streamwish/Vudeo)",
+  "versionCode": 81,
+  "versionName": "2.1.55",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.55/AndroidVideo.apk",
+  "changelog": "v2.1.55: ad-block estilo AdGuard en el WebView via DoH (acotado a subrecursos de terceros)",
   "required": false
 }
