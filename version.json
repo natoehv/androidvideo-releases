@@ -1,7 +1,7 @@
 {
-  "versionCode": 101,
-  "versionName": "2.1.75",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.75/AndroidVideo.apk",
-  "changelog": "v2.1.75: autoclick captcha-gate byseraguci.com",
+  "versionCode": 102,
+  "versionName": "2.1.76",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.76/AndroidVideo.apk",
+  "changelog": "v2.1.76: overlay de estado en reproducción para byseraguci.com",
   "required": false
 }
