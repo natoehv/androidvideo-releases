@@ -1,7 +1,7 @@
 {
-  "versionCode": 102,
-  "versionName": "2.1.76",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.76/AndroidVideo.apk",
-  "changelog": "v2.1.76: overlay de estado en reproducción para byseraguci.com",
+  "versionCode": 103,
+  "versionName": "2.1.77",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.77/AndroidVideo.apk",
+  "changelog": "v2.1.77: VOE resolver por API + iframe (byseraguci/q8y5z)",
   "required": false
 }
