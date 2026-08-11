@@ -1,7 +1,7 @@
 {
-  "versionCode": 100,
-  "versionName": "2.1.74",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.74/AndroidVideo.apk",
-  "changelog": "v2.1.74: source TV en vivo (golive.cl) con grilla de canales por categoría",
+  "versionCode": 101,
+  "versionName": "2.1.75",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.75/AndroidVideo.apk",
+  "changelog": "v2.1.75: autoclick captcha-gate byseraguci.com",
   "required": false
 }
