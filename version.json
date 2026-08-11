@@ -1,7 +1,7 @@
 {
-  "versionCode": 94,
-  "versionName": "2.1.68",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.68/AndroidVideo.apk",
-  "changelog": "v2.1.68: TV - API keys sin auto-teclado + foco inicial en Configuración + foco visible en temporadas",
+  "versionCode": 95,
+  "versionName": "2.1.69",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.69/AndroidVideo.apk",
+  "changelog": "v2.1.69: Epsilon siempre nativo + experimental descargas sin visor (megaup)",
   "required": false
 }
