@@ -1,7 +1,7 @@
 {
-  "versionCode": 92,
-  "versionName": "2.1.66",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.66/AndroidVideo.apk",
-  "changelog": "v2.1.66: prev/next conserva fullscreen + mismo servidor (o el primero disponible)",
+  "versionCode": 93,
+  "versionName": "2.1.67",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.67/AndroidVideo.apk",
+  "changelog": "v2.1.67: menú contextual (long-press) en cards del catálogo para favoritos",
   "required": false
 }
