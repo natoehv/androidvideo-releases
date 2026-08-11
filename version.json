@@ -1,7 +1,7 @@
 {
-  "versionCode": 104,
-  "versionName": "2.1.78",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.78/AndroidVideo.apk",
-  "changelog": "v2.1.78: VOE - embed original + tap del usuario (revertir inyeccion de iframe)",
+  "versionCode": 105,
+  "versionName": "2.1.79",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.79/AndroidVideo.apk",
+  "changelog": "v2.1.79: experimental Reproducir sin visor (hidePlaybackViewer)",
   "required": false
 }
