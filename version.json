@@ -1,7 +1,7 @@
 {
-  "versionCode": 97,
-  "versionName": "2.1.71",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.71/AndroidVideo.apk",
-  "changelog": "v2.1.71: servidores en películas de Doramasflix (Server Action movie_id)",
+  "versionCode": 98,
+  "versionName": "2.1.72",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.72/AndroidVideo.apk",
+  "changelog": "v2.1.72: Doramasflix 100% GraphQL (sin hashes Next-Action ni scraping del RSC)",
   "required": false
 }
