@@ -1,7 +1,7 @@
 {
-  "versionCode": 88,
-  "versionName": "2.1.62",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.62/AndroidVideo.apk",
-  "changelog": "v2.1.62: Doramasflix catálogo por GraphQL (listDoramas/listMovies/pagination/search)",
+  "versionCode": 89,
+  "versionName": "2.1.63",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.63/AndroidVideo.apk",
+  "changelog": "v2.1.63: casting - diagnóstico visible (load result + IDLE error + proxy null)",
   "required": false
 }
