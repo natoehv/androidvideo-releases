@@ -1,7 +1,7 @@
 {
-  "versionCode": 89,
-  "versionName": "2.1.63",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.63/AndroidVideo.apk",
-  "changelog": "v2.1.63: casting - diagnóstico visible (load result + IDLE error + proxy null)",
+  "versionCode": 90,
+  "versionName": "2.1.64",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.64/AndroidVideo.apk",
+  "changelog": "v2.1.64: gestionar listas negra/blanca de descargas desde Configuración (TV)",
   "required": false
 }
