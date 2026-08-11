@@ -1,7 +1,7 @@
 {
-  "versionCode": 90,
-  "versionName": "2.1.64",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.64/AndroidVideo.apk",
-  "changelog": "v2.1.64: gestionar listas negra/blanca de descargas desde Configuración (TV)",
+  "versionCode": 91,
+  "versionName": "2.1.65",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.65/AndroidVideo.apk",
+  "changelog": "v2.1.65: casting - IP WiFi para el proxy + watchdog de carga eterna",
   "required": false
 }
