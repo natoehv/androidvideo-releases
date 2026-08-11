@@ -1,7 +1,7 @@
 {
-  "versionCode": 93,
-  "versionName": "2.1.67",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.67/AndroidVideo.apk",
-  "changelog": "v2.1.67: menú contextual (long-press) en cards del catálogo para favoritos",
+  "versionCode": 94,
+  "versionName": "2.1.68",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.68/AndroidVideo.apk",
+  "changelog": "v2.1.68: TV - API keys sin auto-teclado + foco inicial en Configuración + foco visible en temporadas",
   "required": false
 }
