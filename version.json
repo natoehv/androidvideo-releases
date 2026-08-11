@@ -1,7 +1,7 @@
 {
-  "versionCode": 91,
-  "versionName": "2.1.65",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.65/AndroidVideo.apk",
-  "changelog": "v2.1.65: casting - IP WiFi para el proxy + watchdog de carga eterna",
+  "versionCode": 92,
+  "versionName": "2.1.66",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.66/AndroidVideo.apk",
+  "changelog": "v2.1.66: prev/next conserva fullscreen + mismo servidor (o el primero disponible)",
   "required": false
 }
