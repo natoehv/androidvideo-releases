@@ -1,7 +1,7 @@
 {
-  "versionCode": 95,
-  "versionName": "2.1.69",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.69/AndroidVideo.apk",
-  "changelog": "v2.1.69: Epsilon siempre nativo + experimental descargas sin visor (megaup)",
+  "versionCode": 96,
+  "versionName": "2.1.70",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.70/AndroidVideo.apk",
+  "changelog": "v2.1.70: DoH no bloqueante (fix loop Cloudflare) + modo sin visor más robusto",
   "required": false
 }
