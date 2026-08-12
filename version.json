@@ -1,7 +1,7 @@
 {
-  "versionCode": 120,
-  "versionName": "2.1.94",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.94/AndroidVideo.apk",
-  "changelog": "v2.1.94: foco sub-search + borders + titulo con temporada",
+  "versionCode": 121,
+  "versionName": "2.1.95",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.95/AndroidVideo.apk",
+  "changelog": "v2.1.95: Episodios desde player -> Atras al Home",
   "required": false
 }
