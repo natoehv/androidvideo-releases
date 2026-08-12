@@ -1,7 +1,7 @@
 {
-  "versionCode": 107,
-  "versionName": "2.1.81",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.81/AndroidVideo.apk",
-  "changelog": "v2.1.81: no clickear durante challenge de Cloudflare",
+  "versionCode": 108,
+  "versionName": "2.1.82",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.82/AndroidVideo.apk",
+  "changelog": "v2.1.82: no inyectar scripts en megaup (test loop Cloudflare)",
   "required": false
 }
