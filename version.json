@@ -1,7 +1,7 @@
 {
-  "versionCode": 113,
-  "versionName": "2.1.87",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.87/AndroidVideo.apk",
-  "changelog": "v2.1.87: Hackstore busqueda + generos",
+  "versionCode": 114,
+  "versionName": "2.1.88",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.88/AndroidVideo.apk",
+  "changelog": "v2.1.88: Hackstore descargas + episodios limpios",
   "required": false
 }
