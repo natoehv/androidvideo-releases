@@ -1,7 +1,7 @@
 {
-  "versionCode": 121,
-  "versionName": "2.1.95",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.95/AndroidVideo.apk",
-  "changelog": "v2.1.95: Episodios desde player -> Atras al Home",
+  "versionCode": 122,
+  "versionName": "2.1.96",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.96/AndroidVideo.apk",
+  "changelog": "v2.1.96: fondo negro en fullscreen",
   "required": false
 }
