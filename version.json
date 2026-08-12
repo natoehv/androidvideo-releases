@@ -1,7 +1,7 @@
 {
-  "versionCode": 106,
-  "versionName": "2.1.80",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.80/AndroidVideo.apk",
-  "changelog": "v2.1.80: overlay archivo no encontrado + badge de calidad",
+  "versionCode": 107,
+  "versionName": "2.1.81",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.81/AndroidVideo.apk",
+  "changelog": "v2.1.81: no clickear durante challenge de Cloudflare",
   "required": false
 }
