@@ -1,7 +1,7 @@
 {
-  "versionCode": 111,
-  "versionName": "2.1.85",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.85/AndroidVideo.apk",
-  "changelog": "v2.1.85: renombrar sources (Animé + Cinecalidad.rs/.vg/.am)",
+  "versionCode": 112,
+  "versionName": "2.1.86",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.86/AndroidVideo.apk",
+  "changelog": "v2.1.86: source Hackstore (API REST)",
   "required": false
 }
