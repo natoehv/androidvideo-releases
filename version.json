@@ -1,7 +1,7 @@
 {
-  "versionCode": 109,
-  "versionName": "2.1.83",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.83/AndroidVideo.apk",
-  "changelog": "v2.1.83: player tabs audio/sub + Cinecalidad.rs filtros",
+  "versionCode": 110,
+  "versionName": "2.1.84",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.84/AndroidVideo.apk",
+  "changelog": "v2.1.84: Cinecalidad.rs panel de descarga",
   "required": false
 }
