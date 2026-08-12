@@ -1,7 +1,7 @@
 {
-  "versionCode": 108,
-  "versionName": "2.1.82",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.82/AndroidVideo.apk",
-  "changelog": "v2.1.82: no inyectar scripts en megaup (test loop Cloudflare)",
+  "versionCode": 109,
+  "versionName": "2.1.83",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.83/AndroidVideo.apk",
+  "changelog": "v2.1.83: player tabs audio/sub + Cinecalidad.rs filtros",
   "required": false
 }
