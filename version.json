@@ -1,7 +1,7 @@
 {
-  "versionCode": 137,
-  "versionName": "2.2.11",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.11/AndroidVideo.apk",
-  "changelog": "v2.2.11: watchdog stall + buffer live + sin resumen posicion en vivo + codec audio visible",
+  "versionCode": 138,
+  "versionName": "2.2.12",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.12/AndroidVideo.apk",
+  "changelog": "v2.2.12: IPTV favoritos compartidos entre portales (id name-based)",
   "required": false
 }
