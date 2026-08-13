@@ -1,7 +1,7 @@
 {
-  "versionCode": 129,
-  "versionName": "2.2.3",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.3/AndroidVideo.apk",
-  "changelog": "v2.2.3: fixes navegacion + IPTV dedup + filtro adulto",
+  "versionCode": 130,
+  "versionName": "2.2.4",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.4/AndroidVideo.apk",
+  "changelog": "v2.2.4: IPTV carruseles por categoria + cache persistente 12h",
   "required": false
 }
