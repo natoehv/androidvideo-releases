@@ -1,7 +1,7 @@
 {
-  "versionCode": 122,
-  "versionName": "2.1.96",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.96/AndroidVideo.apk",
-  "changelog": "v2.1.96: fondo negro en fullscreen",
+  "versionCode": 123,
+  "versionName": "2.1.97",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.97/AndroidVideo.apk",
+  "changelog": "v2.1.97: TV en vivo fullscreen+autoplay + prev/next canal",
   "required": false
 }
