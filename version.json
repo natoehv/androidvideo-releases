@@ -1,7 +1,7 @@
 {
-  "versionCode": 139,
-  "versionName": "2.2.13",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.13/AndroidVideo.apk",
-  "changelog": "v2.2.13: IPTV soporte de listas M3U por URL (solo en vivo)",
+  "versionCode": 140,
+  "versionName": "2.2.14",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.14/AndroidVideo.apk",
+  "changelog": "v2.2.14: pausa al minimizar + reproduccion en segundo plano (PiP)",
   "required": false
 }
