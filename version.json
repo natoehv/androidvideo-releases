@@ -1,7 +1,7 @@
 {
-  "versionCode": 141,
-  "versionName": "2.2.15",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.15/AndroidVideo.apk",
-  "changelog": "v2.2.15: IPTV M3U fix 401 (User-Agent del stream) + EXTVLCOPT",
+  "versionCode": 142,
+  "versionName": "2.2.16",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.16/AndroidVideo.apk",
+  "changelog": "v2.2.16: audio FFmpeg (MP2/AC3/EAC3/DTS) + favoritos live nav acotada",
   "required": false
 }
