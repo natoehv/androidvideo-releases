@@ -1,7 +1,7 @@
 {
-  "versionCode": 131,
-  "versionName": "2.2.5",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.5/AndroidVideo.apk",
-  "changelog": "v2.2.5: badge codec audio + decoder fallback + IPTV autoplay 1er server",
+  "versionCode": 132,
+  "versionName": "2.2.6",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.6/AndroidVideo.apk",
+  "changelog": "v2.2.6: busqueda historial al confirmar + debounce 500ms",
   "required": false
 }
