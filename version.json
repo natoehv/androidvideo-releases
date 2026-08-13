@@ -1,7 +1,7 @@
 {
-  "versionCode": 125,
-  "versionName": "2.1.99",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.1.99/AndroidVideo.apk",
-  "changelog": "v2.1.99: source IPTV Xtream + TV en vivo generica + stream directo",
+  "versionCode": 126,
+  "versionName": "2.2.0",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.0/AndroidVideo.apk",
+  "changelog": "v2.2.0: IPTV config desde assets/iptv.json",
   "required": false
 }
