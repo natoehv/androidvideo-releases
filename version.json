@@ -1,7 +1,7 @@
 {
-  "versionCode": 126,
-  "versionName": "2.2.0",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.0/AndroidVideo.apk",
-  "changelog": "v2.2.0: IPTV config desde assets/iptv.json",
+  "versionCode": 127,
+  "versionName": "2.2.1",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.1/AndroidVideo.apk",
+  "changelog": "v2.2.1: toggle IPTV en Configuracion (default off)",
   "required": false
 }
