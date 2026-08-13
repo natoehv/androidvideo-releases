@@ -1,7 +1,7 @@
 {
-  "versionCode": 143,
-  "versionName": "2.2.17",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.17/AndroidVideo.apk",
-  "changelog": "v2.2.17: APK sin x86_64 (solo ARM) -> 22MB",
+  "versionCode": 144,
+  "versionName": "2.2.18",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.18/AndroidVideo.apk",
+  "changelog": "v2.2.18: pin categorias IPTV + modal salir + IPTV siempre activo",
   "required": false
 }
