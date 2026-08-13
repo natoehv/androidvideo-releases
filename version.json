@@ -1,7 +1,7 @@
 {
-  "versionCode": 127,
-  "versionName": "2.2.1",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.1/AndroidVideo.apk",
-  "changelog": "v2.2.1: toggle IPTV en Configuracion (default off)",
+  "versionCode": 128,
+  "versionName": "2.2.2",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.2/AndroidVideo.apk",
+  "changelog": "v2.2.2: IPTV 3 secciones + multi-portal + filtro adultos",
   "required": false
 }
