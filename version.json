@@ -1,7 +1,7 @@
 {
-  "versionCode": 136,
-  "versionName": "2.2.10",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.10/AndroidVideo.apk",
-  "changelog": "v2.2.10: reintento automatico + fix imagen congelada al cambiar de server",
+  "versionCode": 137,
+  "versionName": "2.2.11",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.11/AndroidVideo.apk",
+  "changelog": "v2.2.11: watchdog stall + buffer live + sin resumen posicion en vivo + codec audio visible",
   "required": false
 }
