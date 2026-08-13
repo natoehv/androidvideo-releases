@@ -1,7 +1,7 @@
 {
-  "versionCode": 132,
-  "versionName": "2.2.6",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.6/AndroidVideo.apk",
-  "changelog": "v2.2.6: busqueda historial al confirmar + debounce 500ms",
+  "versionCode": 133,
+  "versionName": "2.2.7",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.7/AndroidVideo.apk",
+  "changelog": "v2.2.7: IPTV busqueda",
   "required": false
 }
