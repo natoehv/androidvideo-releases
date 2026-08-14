@@ -1,7 +1,7 @@
 {
-  "versionCode": 145,
-  "versionName": "2.2.19",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.19/AndroidVideo.apk",
-  "changelog": "v2.2.19: TV - navegar selector de lista IPTV con D-pad (scroll en el dialogo)",
+  "versionCode": 146,
+  "versionName": "2.2.20",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.20/AndroidVideo.apk",
+  "changelog": "v2.2.20: reproduccion IPTV en vivo mas robusta (timeouts, reintentos, buffer, cap 720p)",
   "required": false
 }
