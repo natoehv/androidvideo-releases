@@ -1,7 +1,7 @@
 {
-  "versionCode": 149,
-  "versionName": "2.2.23",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.23/AndroidVideo.apk",
-  "changelog": "v2.2.23: PiP solo-video + buffer live configurable + error descartable + foco en buffering",
+  "versionCode": 150,
+  "versionName": "2.2.24",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.24/AndroidVideo.apk",
+  "changelog": "v2.2.24: reproduccion siempre sin visor (se quita el toggle)",
   "required": false
 }
