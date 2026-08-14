@@ -1,7 +1,7 @@
 {
-  "versionCode": 155,
-  "versionName": "2.2.29",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.29/AndroidVideo.apk",
-  "changelog": "v2.2.29: panel de servidores como modal (elimina barra de abajo)",
+  "versionCode": 156,
+  "versionName": "2.2.30",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.30/AndroidVideo.apk",
+  "changelog": "v2.2.30: chip server en descargas + solo fullscreen + reorg vista WebView",
   "required": false
 }
