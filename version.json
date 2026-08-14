@@ -1,7 +1,7 @@
 {
-  "versionCode": 163,
-  "versionName": "2.2.37",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.37/AndroidVideo.apk",
-  "changelog": "v2.2.37: descargar en player + spinners + modal servers compacto + fix foco subtitulos TV",
+  "versionCode": 164,
+  "versionName": "2.2.38",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.38/AndroidVideo.apk",
+  "changelog": "v2.2.38: PiP en pantalla fusionada + boton episodios solo en fullscreen",
   "required": false
 }
