@@ -1,7 +1,7 @@
 {
-  "versionCode": 148,
-  "versionName": "2.2.22",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.22/AndroidVideo.apk",
-  "changelog": "v2.2.22: TV en vivo sin barra de tiempo + indicador EN VIVO",
+  "versionCode": 149,
+  "versionName": "2.2.23",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.23/AndroidVideo.apk",
+  "changelog": "v2.2.23: PiP solo-video + buffer live configurable + error descartable + foco en buffering",
   "required": false
 }
