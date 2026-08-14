@@ -1,7 +1,7 @@
 {
-  "versionCode": 151,
-  "versionName": "2.2.25",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.25/AndroidVideo.apk",
-  "changelog": "v2.2.25: selector de servidor en el player (TV en vivo)",
+  "versionCode": 152,
+  "versionName": "2.2.26",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.26/AndroidVideo.apk",
+  "changelog": "v2.2.26: TV en vivo sin listado de servers abajo (solo chip arriba)",
   "required": false
 }
