@@ -1,7 +1,7 @@
 {
-  "versionCode": 162,
-  "versionName": "2.2.36",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.36/AndroidVideo.apk",
-  "changelog": "v2.2.36: modal servidores compacto + drawer de episodios en el player",
+  "versionCode": 163,
+  "versionName": "2.2.37",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.37/AndroidVideo.apk",
+  "changelog": "v2.2.37: descargar en player + spinners + modal servers compacto + fix foco subtitulos TV",
   "required": false
 }
