@@ -1,7 +1,7 @@
 {
-  "versionCode": 165,
-  "versionName": "2.2.39",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.39/AndroidVideo.apk",
-  "changelog": "v2.2.39: Cinecalidad.vg carga lazy de episodios por temporada",
+  "versionCode": 166,
+  "versionName": "2.2.40",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.40/AndroidVideo.apk",
+  "changelog": "v2.2.40: avisar descarga fallida",
   "required": false
 }
