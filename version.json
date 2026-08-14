@@ -1,7 +1,7 @@
 {
-  "versionCode": 150,
-  "versionName": "2.2.24",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.24/AndroidVideo.apk",
-  "changelog": "v2.2.24: reproduccion siempre sin visor (se quita el toggle)",
+  "versionCode": 151,
+  "versionName": "2.2.25",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.25/AndroidVideo.apk",
+  "changelog": "v2.2.25: selector de servidor en el player (TV en vivo)",
   "required": false
 }
