@@ -1,7 +1,7 @@
 {
-  "versionCode": 147,
-  "versionName": "2.2.21",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.21/AndroidVideo.apk",
-  "changelog": "v2.2.21: menos buffer/latencia en TV en vivo",
+  "versionCode": 148,
+  "versionName": "2.2.22",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.22/AndroidVideo.apk",
+  "changelog": "v2.2.22: TV en vivo sin barra de tiempo + indicador EN VIVO",
   "required": false
 }
