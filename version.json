@@ -1,7 +1,7 @@
 {
-  "versionCode": 156,
-  "versionName": "2.2.30",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.30/AndroidVideo.apk",
-  "changelog": "v2.2.30: chip server en descargas + solo fullscreen + reorg vista WebView",
+  "versionCode": 157,
+  "versionName": "2.2.31",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.31/AndroidVideo.apk",
+  "changelog": "v2.2.31: boton Servidores en no-fullscreen + sin 'marcar visto' en vivo",
   "required": false
 }
