@@ -1,7 +1,7 @@
 {
-  "versionCode": 154,
-  "versionName": "2.2.28",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.28/AndroidVideo.apk",
-  "changelog": "v2.2.28: selector accesible en error + autoplay primer server",
+  "versionCode": 155,
+  "versionName": "2.2.29",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.29/AndroidVideo.apk",
+  "changelog": "v2.2.29: panel de servidores como modal (elimina barra de abajo)",
   "required": false
 }
