@@ -1,7 +1,7 @@
 {
-  "versionCode": 160,
-  "versionName": "2.2.34",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.34/AndroidVideo.apk",
-  "changelog": "v2.2.34: continuar viendo / ultimos episodios / IPTV VOD -> pantalla fusionada",
+  "versionCode": 161,
+  "versionName": "2.2.35",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.35/AndroidVideo.apk",
+  "changelog": "v2.2.35: home cache-first (Hackstore)",
   "required": false
 }
