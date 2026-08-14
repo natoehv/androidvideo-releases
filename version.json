@@ -1,7 +1,7 @@
 {
-  "versionCode": 167,
-  "versionName": "2.2.41",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.41/AndroidVideo.apk",
-  "changelog": "v2.2.41: reenviar headers en descargas + error real",
+  "versionCode": 168,
+  "versionName": "2.2.42",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.42/AndroidVideo.apk",
+  "changelog": "v2.2.42: cookie en descargas (fix 403)",
   "required": false
 }
