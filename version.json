@@ -1,7 +1,7 @@
 {
-  "versionCode": 144,
-  "versionName": "2.2.18",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.18/AndroidVideo.apk",
-  "changelog": "v2.2.18: pin categorias IPTV + modal salir + IPTV siempre activo",
+  "versionCode": 145,
+  "versionName": "2.2.19",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.19/AndroidVideo.apk",
+  "changelog": "v2.2.19: TV - navegar selector de lista IPTV con D-pad (scroll en el dialogo)",
   "required": false
 }
