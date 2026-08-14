@@ -1,7 +1,7 @@
 {
-  "versionCode": 164,
-  "versionName": "2.2.38",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.38/AndroidVideo.apk",
-  "changelog": "v2.2.38: PiP en pantalla fusionada + boton episodios solo en fullscreen",
+  "versionCode": 165,
+  "versionName": "2.2.39",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.39/AndroidVideo.apk",
+  "changelog": "v2.2.39: Cinecalidad.vg carga lazy de episodios por temporada",
   "required": false
 }
