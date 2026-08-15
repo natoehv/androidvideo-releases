@@ -1,7 +1,7 @@
 {
-  "versionCode": 181,
-  "versionName": "2.2.55",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.55/AndroidVideo.apk",
-  "changelog": "v2.2.55: diagnostico de casting",
+  "versionCode": 182,
+  "versionName": "2.2.56",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.56/AndroidVideo.apk",
+  "changelog": "v2.2.56: TLS tolerante en proxy de cast",
   "required": false
 }
