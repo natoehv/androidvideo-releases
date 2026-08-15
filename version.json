@@ -1,7 +1,7 @@
 {
-  "versionCode": 173,
-  "versionName": "2.2.47",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.47/AndroidVideo.apk",
-  "changelog": "v2.2.47: cast sin PiP + resume desde último punto",
+  "versionCode": 174,
+  "versionName": "2.2.48",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.48/AndroidVideo.apk",
+  "changelog": "v2.2.48: autoplay al abrir configurable",
   "required": false
 }
