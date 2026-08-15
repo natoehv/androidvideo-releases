@@ -1,7 +1,7 @@
 {
-  "versionCode": 184,
-  "versionName": "2.2.58",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.58/AndroidVideo.apk",
-  "changelog": "v2.2.58: cast IPTV en vivo (STREAM_TYPE_LIVE)",
+  "versionCode": 185,
+  "versionName": "2.2.59",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.59/AndroidVideo.apk",
+  "changelog": "v2.2.59: cast de IPTV VOD progresivo",
   "required": false
 }
