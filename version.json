@@ -1,7 +1,7 @@
 {
-  "versionCode": 177,
-  "versionName": "2.2.51",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.51/AndroidVideo.apk",
-  "changelog": "v2.2.51: menu contextual + progreso en lista de episodios",
+  "versionCode": 178,
+  "versionName": "2.2.52",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.52/AndroidVideo.apk",
+  "changelog": "v2.2.52: fixes de cast en segundo plano y proxy",
   "required": false
 }
