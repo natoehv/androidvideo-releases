@@ -1,7 +1,7 @@
 {
-  "versionCode": 170,
-  "versionName": "2.2.44",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.44/AndroidVideo.apk",
-  "changelog": "v2.2.44: fix 403 descargas (no reenviar Range/Accept-Encoding)",
+  "versionCode": 171,
+  "versionName": "2.2.45",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.45/AndroidVideo.apk",
+  "changelog": "v2.2.45: mejor resolución (sin cap 720p)",
   "required": false
 }
