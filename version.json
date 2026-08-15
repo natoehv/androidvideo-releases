@@ -1,7 +1,7 @@
 {
-  "versionCode": 179,
-  "versionName": "2.2.53",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.53/AndroidVideo.apk",
-  "changelog": "v2.2.53: cookie en proxy de cast (fix 2100)",
+  "versionCode": 180,
+  "versionName": "2.2.54",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.54/AndroidVideo.apk",
+  "changelog": "v2.2.54: audio/subs en el visor de cast",
   "required": false
 }
