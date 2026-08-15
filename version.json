@@ -1,7 +1,7 @@
 {
-  "versionCode": 176,
-  "versionName": "2.2.50",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.50/AndroidVideo.apk",
-  "changelog": "v2.2.50: boton cast del player = selector de dispositivos",
+  "versionCode": 177,
+  "versionName": "2.2.51",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.51/AndroidVideo.apk",
+  "changelog": "v2.2.51: menu contextual + progreso en lista de episodios",
   "required": false
 }
