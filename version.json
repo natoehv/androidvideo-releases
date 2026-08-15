@@ -1,7 +1,7 @@
 {
-  "versionCode": 168,
-  "versionName": "2.2.42",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.42/AndroidVideo.apk",
-  "changelog": "v2.2.42: cookie en descargas (fix 403)",
+  "versionCode": 169,
+  "versionName": "2.2.43",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.43/AndroidVideo.apk",
+  "changelog": "v2.2.43: log de diagnóstico de descargas",
   "required": false
 }
