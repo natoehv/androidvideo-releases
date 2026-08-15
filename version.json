@@ -1,7 +1,7 @@
 {
-  "versionCode": 183,
-  "versionName": "2.2.57",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.57/AndroidVideo.apk",
-  "changelog": "v2.2.57: debounce + offset subtitulo + abrir detalle en visor de cast",
+  "versionCode": 184,
+  "versionName": "2.2.58",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.58/AndroidVideo.apk",
+  "changelog": "v2.2.58: cast IPTV en vivo (STREAM_TYPE_LIVE)",
   "required": false
 }
