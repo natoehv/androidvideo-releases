@@ -1,7 +1,7 @@
 {
-  "versionCode": 171,
-  "versionName": "2.2.45",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.45/AndroidVideo.apk",
-  "changelog": "v2.2.45: mejor resolución (sin cap 720p)",
+  "versionCode": 172,
+  "versionName": "2.2.46",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.46/AndroidVideo.apk",
+  "changelog": "v2.2.46: chip de servidores en fase WebView (fix Voe)",
   "required": false
 }
