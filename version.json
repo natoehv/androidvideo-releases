@@ -1,7 +1,7 @@
 {
-  "versionCode": 175,
-  "versionName": "2.2.49",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.49/AndroidVideo.apk",
-  "changelog": "v2.2.49: IPTV en vivo vista fusionada + lista infinita de canales",
+  "versionCode": 176,
+  "versionName": "2.2.50",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.50/AndroidVideo.apk",
+  "changelog": "v2.2.50: boton cast del player = selector de dispositivos",
   "required": false
 }
