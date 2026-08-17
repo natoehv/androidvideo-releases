@@ -1,7 +1,7 @@
 {
-  "versionCode": 192,
-  "versionName": "2.2.66",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.66/AndroidVideo.apk",
-  "changelog": "v2.2.66: favoritos/descargas cross-source + spinner continuar viendo",
+  "versionCode": 193,
+  "versionName": "2.2.67",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.67/AndroidVideo.apk",
+  "changelog": "v2.2.67: mini-player flotante in-app + overflow controles + extras",
   "required": false
 }
