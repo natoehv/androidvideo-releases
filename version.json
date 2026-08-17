@@ -1,7 +1,7 @@
 {
-  "versionCode": 185,
-  "versionName": "2.2.59",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.59/AndroidVideo.apk",
-  "changelog": "v2.2.59: cast de IPTV VOD progresivo",
+  "versionCode": 186,
+  "versionName": "2.2.60",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.60/AndroidVideo.apk",
+  "changelog": "v2.2.60: diagnostico cast dedupe + fallos de segmento",
   "required": false
 }
