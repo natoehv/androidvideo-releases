@@ -1,7 +1,7 @@
 {
-  "versionCode": 193,
-  "versionName": "2.2.67",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.67/AndroidVideo.apk",
-  "changelog": "v2.2.67: mini-player flotante in-app + overflow controles + extras",
+  "versionCode": 194,
+  "versionName": "2.2.68",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.68/AndroidVideo.apk",
+  "changelog": "v2.2.68: flotante+PiP, continuar viendo global, otras fuentes, estabilidad IPTV",
   "required": false
 }
