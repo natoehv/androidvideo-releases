@@ -1,7 +1,7 @@
 {
-  "versionCode": 206,
-  "versionName": "2.2.80",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.80/AndroidVideo.apk",
-  "changelog": "v2.2.80: soporte MAG, verificador de listas, balanceo de cuentas de respaldo, casting IPTV, fix congelamiento TV inmersivo, Chile (gratis), mejoras D-pad.",
+  "versionCode": 207,
+  "versionName": "2.2.81",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.81/AndroidVideo.apk",
+  "changelog": "v2.2.81: guía TV inmersivo compartida (el primero la genera, el resto la descarga), diccionario curado de canales (nombres canónicos + categorías, variantes de deportes separadas), checker de cuentas agregadas (archivar cuentas muertas), reintento con otra cuenta en serie/película/vivo, no reintentar en 40X/5XX, fix 'Otras fuentes' IPTV.",
   "required": false
 }
