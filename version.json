@@ -1,7 +1,7 @@
 {
-  "versionCode": 205,
-  "versionName": "2.2.79",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.79/AndroidVideo.apk",
-  "changelog": "v2.2.79",
+  "versionCode": 206,
+  "versionName": "2.2.80",
+  "apkUrl": "https://raw.githubusercontent.com/natoehv/androidvideo-releases/main/releases/download/v2.2.80/AndroidVideo.apk",
+  "changelog": "v2.2.80: soporte MAG, verificador de listas, balanceo de cuentas de respaldo, casting IPTV, fix congelamiento TV inmersivo, Chile gratis, mejoras D-pad.",
   "required": false
 }
