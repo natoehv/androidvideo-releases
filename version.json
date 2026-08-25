@@ -1,7 +1,7 @@
 {
-  "versionCode": 207,
-  "versionName": "2.2.81",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.81/AndroidVideo.apk",
-  "changelog": "v2.2.81: guía TV inmersivo compartida (el primero la genera, el resto la descarga), diccionario curado de canales (nombres canónicos + categorías, variantes de deportes separadas), checker de cuentas agregadas (archivar cuentas muertas), reintento con otra cuenta en serie/película/vivo, no reintentar en 40X/5XX, fix 'Otras fuentes' IPTV.",
+  "versionCode": 208,
+  "versionName": "2.2.82",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.82/AndroidVideo.apk",
+  "changelog": "v2.2.82: diccionario de canales (multi-categoría, split Discovery, exclusión por prefijo país, familias ordenadas), el score se mantiene al abrir un buen canal, overlay muestra el nombre real de la lista y cambia al saltar de mirror, 404 en marcha se recupera, checker con prueba completa (reproducción), archivar cuentas muertas, y fixes de crash/UX del TV inmersivo.",
   "required": false
 }
