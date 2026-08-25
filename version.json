@@ -1,7 +1,7 @@
 {
-  "versionCode": 208,
-  "versionName": "2.2.82",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.82/AndroidVideo.apk",
-  "changelog": "v2.2.82: diccionario de canales (multi-categoría, split Discovery, exclusión por prefijo país, familias ordenadas), el score se mantiene al abrir un buen canal, overlay muestra el nombre real de la lista y cambia al saltar de mirror, 404 en marcha se recupera, checker con prueba completa (reproducción), archivar cuentas muertas, y fixes de crash/UX del TV inmersivo.",
+  "versionCode": 209,
+  "versionName": "2.2.83",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.83/AndroidVideo.apk",
+  "changelog": "v2.2.83: respaldo del catálogo IPTV en Firestore → la carga inicial es mucho más rápida (el primer dispositivo baja del proveedor y lo sube, el resto lo descargan). Botón 'Forzar sincronización', el score de un canal se mantiene al abrirlo, overlay muestra el nombre de la lista, y mejoras del TV inmersivo.",
   "required": false
 }
