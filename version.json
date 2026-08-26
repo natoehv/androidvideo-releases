@@ -2,6 +2,6 @@
   "versionCode": 213,
   "versionName": "2.2.87",
   "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.87/AndroidVideo.apk",
-  "changelog": "• El filtro de contenido adulto ahora también oculta lo que ya estaba descargado/cacheado: se aplica al mostrar las listas (canales, películas, series y búsqueda), no solo al descargarlas. Ya no hace falta re-sincronizar para que desaparezca.",
+  "changelog": "...",
   "required": false
 }
