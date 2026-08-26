@@ -1,7 +1,7 @@
 {
-  "versionCode": 219,
-  "versionName": "2.2.93",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.93/AndroidVideo.apk",
-  "changelog": "• Eventos: nueva agenda «Fútbol en TV» con los partidos de Chile, Premier League, La Liga, Champions, Libertadores y Sudamericana — hora chilena y canales locales; si el canal está en tus listas (TNT Sports, ESPN, DSports…), tocas el partido y se abre el canal.\n• La fecha de última actualización de las listas ahora se muestra siempre.\n• Corregido cierre inesperado al abrir un canal con espejos de cuentas duplicadas.",
+  "versionCode": 220,
+  "versionName": "2.2.94",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.94/AndroidVideo.apk",
+  "changelog": "• Nuevo menú «Estrenos»: películas y series desde TMDB, ordenadas por fecha. En películas se distingue lo que ya está en streaming de lo que recién llega al cine; en series se muestra si están al aire y cuándo sale el próximo episodio.\n• Al tocar un estreno se busca en todas tus fuentes (filtrando películas o series según corresponda).\n• Recordatorios: campanita en eventos y estrenos que avisa por notificación (15 min antes del partido, o el día del estreno/episodio) y abre la app en esa sección.\n• Eventos: los partidos abren el canal correcto (Real Madrid ya no abre Real Madrid TV, Copa Chile ya no abre HBO) y cargan más rápido.\n• TNT Sports Premium agregado como canal; ESPN ya no toma feeds de EE.UU. (ACCN, ESPN U, ESPN News).\n• El calendario de anime ahora se llama «Semana».",
   "required": false
 }
