@@ -1,7 +1,7 @@
 {
-  "versionCode": 211,
-  "versionName": "2.2.85",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.85/AndroidVideo.apk",
-  "changelog": "• Reproducción IPTV más robusta: reconexión más rápida (OkHttp), auto-cambio de decoder (arregla canales sin audio) y salto al siguiente servidor más rápido cuando uno no responde.\n• Arranca por el mejor servidor/espejo conocido; los canales que fallaron hace días se vuelven a probar solos.\n• Android TV: reproducción más fluida en canales de alto bitrate.\n• Diccionario de canales ampliado (REC TV, 13i, familia HBO, TLC, A&E, deportes y regionales) y fix del Canal 13 (ya no muestra el de Argentina).\n• La fecha de vencimiento ya no queda tapada por el botón Probar.",
+  "versionCode": 212,
+  "versionName": "2.2.86",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.86/AndroidVideo.apk",
+  "changelog": "• Filtro de contenido adulto reforzado: oculta canales y películas XXX que antes se colaban (VOD, series y en vivo), incluyendo listas que marcan sus categorías con ❌❌❌.\n• 'Adult Swim' (animación de Cartoon Network) ya no se oculta por error.",
   "required": false
 }
