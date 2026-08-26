@@ -1,7 +1,7 @@
 {
-  "versionCode": 216,
-  "versionName": "2.2.90",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.90/AndroidVideo.apk",
-  "changelog": "• Nuevo banner de canal en la parte inferior (a lo ancho) con la guía: Ahora/Luego, o 'sin información'.\n• Fix: ESPN ya no carga eventos/ESPN Premium colados de las listas.\n• Si el canal alcanza a reproducir, se cancela el cambio automático de espejo.\n• Con 4 intentos fallidos en un proveedor, salta al siguiente.\n• Menos saltos de segundos al descongelar un canal.\n• Zapping con números del control + temporizador para dormir (30/60/90 min).\n• Series: la barra de tiempo mantiene el foco al adelantar.\n• Elegir el canal actual en la lista cierra la lista.",
+  "versionCode": 217,
+  "versionName": "2.2.91",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.91/AndroidVideo.apk",
+  "changelog": "• Nuevo menú «Eventos»: partidos y eventos deportivos de tus listas con día/hora local, liga y canal — click y se reproduce directo. Botón Actualizar recarga los catálogos (muestra su última actualización).\n• Categoría «Eventos» también en el modo TV inmersivo.\n• La guía «ahora dan» usa el EPG del proveedor que estás viendo (MEGA mostraba el programa de otro canal).\n• Número de canal visible en la lista (para el zapping con números).\n• Más canales: Mega 2, TV Senado, Cámara de Diputados, TUDN, Fox Sports Premium, Claro Sports, DAZN F1/Combat, Nat Geo Wild, TLNovelas, ZooMoo, Semillitas, Galavisión, Canal Once, Azteca Internacional, Unicable, MTV Hits y más.",
   "required": false
 }
