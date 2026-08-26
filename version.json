@@ -2,6 +2,6 @@
   "versionCode": 212,
   "versionName": "2.2.86",
   "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.86/AndroidVideo.apk",
-  "changelog": "• Filtro de contenido adulto reforzado: oculta canales y películas XXX que antes se colaban (VOD, series y en vivo), incluyendo listas que marcan sus categorías con ❌❌❌.\n• 'Adult Swim' (animación de Cartoon Network) ya no se oculta por error.",
+  "changelog": "Filtro.",
   "required": false
 }
