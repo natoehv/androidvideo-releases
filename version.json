@@ -1,7 +1,7 @@
 {
-  "versionCode": 213,
-  "versionName": "2.2.87",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.87/AndroidVideo.apk",
-  "changelog": "...",
+  "versionCode": 214,
+  "versionName": "2.2.88",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.88/AndroidVideo.apk",
+  "changelog": "• Canales IPTV que cargan más rápido y saltan solos cuando un servidor no responde: se prueba el manifest en paralelo y se cambia al mejor espejo disponible al instante.\n• Se recuerda por 60s qué espejo acaba de fallar (no lo reintenta al zapear) y se comparten los caídos entre tus dispositivos.\n• Más buffer automático en canales con cortes; reconexión inmediata al recuperar la red.",
   "required": false
 }
