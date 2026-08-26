@@ -1,7 +1,7 @@
 {
-  "versionCode": 215,
-  "versionName": "2.2.89",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.89/AndroidVideo.apk",
-  "changelog": "• Guía 'ahora dan' en TV en vivo: muestra el programa en curso (y el siguiente) del canal, cuando el proveedor lo entrega.\n• Volver al canal anterior: D-pad izquierda o deslizar a la izquierda alterna entre los dos últimos canales (ideal partido↔noticias).\n• Más canales de películas en el modo TV: Multipremier, Cinelatino, Europa Europa, Distrito Comedia, Volver, Sundance, MGM+ y Runtime.",
+  "versionCode": 216,
+  "versionName": "2.2.90",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.90/AndroidVideo.apk",
+  "changelog": "• Nuevo banner de canal en la parte inferior (a lo ancho) con la guía: Ahora/Luego, o 'sin información'.\n• Fix: ESPN ya no carga eventos/ESPN Premium colados de las listas.\n• Si el canal alcanza a reproducir, se cancela el cambio automático de espejo.\n• Con 4 intentos fallidos en un proveedor, salta al siguiente.\n• Menos saltos de segundos al descongelar un canal.\n• Zapping con números del control + temporizador para dormir (30/60/90 min).\n• Series: la barra de tiempo mantiene el foco al adelantar.\n• Elegir el canal actual en la lista cierra la lista.",
   "required": false
 }
