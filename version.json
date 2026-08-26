@@ -1,7 +1,7 @@
 {
-  "versionCode": 214,
-  "versionName": "2.2.88",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.88/AndroidVideo.apk",
-  "changelog": "• Canales IPTV que cargan más rápido y saltan solos cuando un servidor no responde: se prueba el manifest en paralelo y se cambia al mejor espejo disponible al instante.\n• Se recuerda por 60s qué espejo acaba de fallar (no lo reintenta al zapear) y se comparten los caídos entre tus dispositivos.\n• Más buffer automático en canales con cortes; reconexión inmediata al recuperar la red.",
+  "versionCode": 215,
+  "versionName": "2.2.89",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.89/AndroidVideo.apk",
+  "changelog": "• Guía 'ahora dan' en TV en vivo: muestra el programa en curso (y el siguiente) del canal, cuando el proveedor lo entrega.\n• Volver al canal anterior: D-pad izquierda o deslizar a la izquierda alterna entre los dos últimos canales (ideal partido↔noticias).\n• Más canales de películas en el modo TV: Multipremier, Cinelatino, Europa Europa, Distrito Comedia, Volver, Sundance, MGM+ y Runtime.",
   "required": false
 }
