@@ -1,7 +1,7 @@
 {
-  "versionCode": 209,
-  "versionName": "2.2.83",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.83/AndroidVideo.apk",
-  "changelog": "v2.2.83: respaldo del catálogo IPTV en Firestore → la carga inicial es mucho más rápida (el primer dispositivo baja del proveedor y lo sube, el resto lo descargan). Botón 'Forzar sincronización', el score de un canal se mantiene al abrirlo, overlay muestra el nombre de la lista, y mejoras del TV inmersivo.",
+  "versionCode": 211,
+  "versionName": "2.2.85",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.85/AndroidVideo.apk",
+  "changelog": "• Reproducción IPTV más robusta: reconexión más rápida (OkHttp), auto-cambio de decoder (arregla canales sin audio) y salto al siguiente servidor más rápido cuando uno no responde.\n• Arranca por el mejor servidor/espejo conocido; los canales que fallaron hace días se vuelven a probar solos.\n• Android TV: reproducción más fluida en canales de alto bitrate.\n• Diccionario de canales ampliado (REC TV, 13i, familia HBO, TLC, A&E, deportes y regionales) y fix del Canal 13 (ya no muestra el de Argentina).\n• La fecha de vencimiento ya no queda tapada por el botón Probar.",
   "required": false
 }
