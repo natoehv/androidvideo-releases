@@ -2,6 +2,6 @@
   "versionCode": 272,
   "versionName": "2.2.145",
   "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.145/AndroidVideo.apk",
-  "changelog": "Actualización 2.2.145",
+  "changelog": "v2.2.145: listas duplicadas + el rango que el proveedor ignora",
   "required": false
 }
