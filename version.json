@@ -2,6 +2,6 @@
   "versionCode": 273,
   "versionName": "2.2.146",
   "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.146/AndroidVideo.apk",
-  "changelog": "Actualización 2.2.146",
+  "changelog": "v2.2.146: unificar listas duplicadas, una variante para el cast, y la barra del cast no tapa",
   "required": false
 }
