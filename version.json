@@ -1,7 +1,7 @@
 {
-  "versionCode": 285,
-  "versionName": "2.2.158",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.158/AndroidVideo.apk",
-  "changelog": "Actualización 2.2.158",
+  "versionCode": 284,
+  "versionName": "2.2.157",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.157/AndroidVideo.apk",
+  "changelog": "v2.2.157: renombrar los dispositivos con sesion iniciada",
   "required": false
 }
