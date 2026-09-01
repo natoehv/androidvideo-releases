@@ -1,7 +1,7 @@
 {
-  "versionCode": 275,
-  "versionName": "2.2.148",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.148/AndroidVideo.apk",
-  "changelog": "v2.2.148: el segmento sin vídeo era una pista de audio suelta",
+  "versionCode": 276,
+  "versionName": "2.2.149",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.149/AndroidVideo.apk",
+  "changelog": "v2.2.149: castear no crea el reproductor local",
   "required": false
 }
