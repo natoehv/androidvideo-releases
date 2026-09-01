@@ -1,7 +1,7 @@
 {
-  "versionCode": 270,
-  "versionName": "2.2.143",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.143/AndroidVideo.apk",
-  "changelog": "v2.2.143: el proxy duplicaba los primeros 64 KiB de cada segmento",
+  "versionCode": 271,
+  "versionName": "2.2.144",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.144/AndroidVideo.apk",
+  "changelog": "Actualización 2.2.144",
   "required": false
 }
