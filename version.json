@@ -1,7 +1,7 @@
 {
-  "versionCode": 287,
-  "versionName": "2.2.160",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.160/AndroidVideo.apk",
-  "changelog": "v2.2.160: ESPN/TNT Sports por país",
+  "versionCode": 288,
+  "versionName": "2.2.161",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.161/AndroidVideo.apk",
+  "changelog": "v2.2.161: arranque lento medido + barra de carga",
   "required": false
 }
