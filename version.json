@@ -1,7 +1,7 @@
 {
-  "versionCode": 283,
-  "versionName": "2.2.156",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.156/AndroidVideo.apk",
-  "changelog": "Actualización 2.2.156",
+  "versionCode": 282,
+  "versionName": "2.2.155",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.155/AndroidVideo.apk",
+  "changelog": "v2.2.155: varias listas principales, con prioridad por orden",
   "required": false
 }
