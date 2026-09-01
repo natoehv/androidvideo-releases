@@ -1,7 +1,7 @@
 {
-  "versionCode": 290,
-  "versionName": "2.2.163",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.163/AndroidVideo.apk",
-  "changelog": "v2.2.163: EPG xmltv etapa 2",
+  "versionCode": 293,
+  "versionName": "2.2.164",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.164/AndroidVideo.apk",
+  "changelog": "v2.2.164: cast de IPTV en vivo, EPG con guía de referencia, y la auditoría de UI aplicada\n\n• Casting de IPTV EN VIVO: el proxy recorta la cabeza del playlist hasta un segmento que arranque en keyframe.\n  Los paneles cortan por tiempo y no en keyframes, y el receptor de Cast no puede armar el init del fMP4 con un\n  fragmento a mitad de GOP: moría 'sin código' aunque los segmentos llegaran completos.\n• EPG: guía de referencia externa como base y como ancla para corregir a los paneles que publican la grilla\n  corrida (Chilevisión mostraba las 15:00 cuando son las 08:00). Panel de Programación con la tecla GUÍA/INFO,\n  'Ahora' en todos los canales del cajón y recordatorio por programa.\n• Los canales deportivos se separan por país: ESPN ARG, ESPN CHI, ESPN MX, ESPN PE, TNT Sports ARG/CHI.\n• El espejo reportado con el bicho ya no vuelve a la rotación; los espejos no quedan 'sin buscar' toda la\n  sesión; las cuentas archivadas dejan de ofrecerse como espejo.\n• El rótulo de canal dura 6 s y espera al EPG; los subtítulos arrancan apagados en vivo; el botón 'Ver\n  siguiente' es translúcido y no va pegado al borde.\n• La barra de la actualización ahora avanza de verdad (bajaba todo a memoria antes de empezar a informar).\n• Auditoría de UI aplicada: avisos en las acciones que escriben a la nube, tokens de color semánticos,\n  esqueletos de carga y áreas táctiles de 44 dp.",
   "required": false
 }
