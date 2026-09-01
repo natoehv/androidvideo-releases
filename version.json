@@ -2,6 +2,6 @@
   "versionCode": 286,
   "versionName": "2.2.159",
   "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.159/AndroidVideo.apk",
-  "changelog": "Actualización 2.2.159",
+  "changelog": "v2.2.159: 'Preparando el enlace' eterno + OOM en series de IPTV",
   "required": false
 }
