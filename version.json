@@ -1,7 +1,7 @@
 {
-  "versionCode": 289,
-  "versionName": "2.2.162",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.162/AndroidVideo.apk",
-  "changelog": "v2.2.162: EPG xmltv etapa 1",
+  "versionCode": 290,
+  "versionName": "2.2.163",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.163/AndroidVideo.apk",
+  "changelog": "v2.2.163: EPG xmltv etapa 2",
   "required": false
 }
