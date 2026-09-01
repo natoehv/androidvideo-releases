@@ -2,6 +2,6 @@
   "versionCode": 271,
   "versionName": "2.2.144",
   "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.144/AndroidVideo.apk",
-  "changelog": "Actualización 2.2.144",
+  "changelog": "v2.2.144: el audio HE-AAC declarado mata al receptor sin código",
   "required": false
 }
