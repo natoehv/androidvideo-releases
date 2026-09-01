@@ -1,7 +1,7 @@
 {
-  "versionCode": 276,
-  "versionName": "2.2.149",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.149/AndroidVideo.apk",
-  "changelog": "v2.2.149: castear no crea el reproductor local",
+  "versionCode": 277,
+  "versionName": "2.2.150",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.150/AndroidVideo.apk",
+  "changelog": "Actualización 2.2.150",
   "required": false
 }
