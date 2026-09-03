@@ -78,15 +78,41 @@ jobs:
           # Android exige el JDK que espera AGP 9.
           java-version: '25'
 
+      # ── CACHÉ DEL JAR ────────────────────────────────────────────────────────────────────────────────
+      # La ventana de EPG cambia cada 6 h; el CÓDIGO del worker, casi nunca. Así que se cachea el jar ya
+      # construido con una clave que es el hash de las fuentes que lo determinan: si no cambió nada, la
+      # corrida se salta Gradle, el SDK de Android y la compilación entera —de ~4 min a menos de uno— y
+      # queda sólo bajar las grillas, que es el trabajo de verdad.
+      #
+      # Los cachés de un PR de un fork quedan aislados en la rama de ese PR y `main` no los puede leer, así
+      # que un fork no puede dejar un jar envenenado acá.
+      - name: ¿Ya existe el jar de este código?
+        id: jar
+        uses: actions/cache@v4
+        with:
+          path: iptv-core/build/libs/worker.jar
+          key: >-
+            worker-jar-${{ hashFiles('iptv-core/**/*.kt', 'iptv-core/build.gradle.kts',
+            'gradle/libs.versions.toml', 'gradle/wrapper/gradle-wrapper.properties',
+            'settings.gradle.kts', 'build.gradle.kts') }}
+
       # Hace falta aunque sólo se compile `:iptv-core`, que es Kotlin/JVM puro: Gradle CONFIGURA todos los
       # módulos del build, y `:composeApp` es Android y exige el SDK en la configuración.
       - uses: android-actions/setup-android@v3
+        if: steps.jar.outputs.cache-hit != 'true'
 
       - uses: gradle/actions/setup-gradle@v4
+        if: steps.jar.outputs.cache-hit != 'true'
 
       - name: Compilar el worker (salida a archivo, ver el encabezado)
+        if: steps.jar.outputs.cache-hit != 'true'
         run: |
-          if ! ./gradlew :iptv-core:workerJar --no-daemon > gradle.log 2>&1; then
+          # `--build-cache`: incluso cuando el jar no está cacheado, las tareas cuyas entradas no cambiaron
+          # salen del caché de build que `setup-gradle` persiste, en vez de recompilarse.
+          # `in-process`: la estrategia que este proyecto usa siempre (ver docs/notes/build.md), para no
+          # depender de que el daemon de Kotlin arranque bien.
+          if ! ./gradlew :iptv-core:workerJar --no-daemon --build-cache \
+                 -Pkotlin.compiler.execution.strategy=in-process > gradle.log 2>&1; then
             echo "La compilación falló. El log completo NO se imprime porque este repo es público."
             echo "--- Qué falló (sin líneas del compilador, que llevarían código) ---"
             # Del bloque "What went wrong" hasta "Try:", que es donde Gradle dice la CAUSA (SDK que falta,
@@ -99,6 +125,10 @@ jobs:
             exit 1
           fi
           ls -l iptv-core/build/libs/worker.jar
+
+      - name: El jar salió del caché
+        if: steps.jar.outputs.cache-hit == 'true'
+        run: ls -l iptv-core/build/libs/worker.jar
 
       - name: Autenticar contra Google (WIF, sin llaves)
         id: auth
