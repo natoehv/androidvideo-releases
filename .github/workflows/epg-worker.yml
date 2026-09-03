@@ -38,6 +38,27 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
+      # Sin esto el fallo MIENTE: cuando `ssh-key` llega vacío, checkout no avisa — se cae al GITHUB_TOKEN,
+      # que no ve el repo privado, y el error es "Repository not found", que manda a buscar el repo o los
+      # permisos de la deploy key en vez del secreto que falta.
+      - name: Comprobar que la deploy key está cargada
+        env:
+          KEY: ${{ secrets.CODE_DEPLOY_KEY }}
+        run: |
+          if [ -z "$KEY" ]; then
+            echo "Falta el secreto CODE_DEPLOY_KEY en ESTE repo (androidvideo-releases)."
+            echo "  · Settings → Secrets and variables → Actions → pestaña Secrets (no Variables)"
+            echo "  · Nombre exacto: CODE_DEPLOY_KEY"
+            echo "  · Contenido: la clave PRIVADA (el archivo sin .pub), entera y con su última línea"
+            exit 1
+          fi
+          echo "CODE_DEPLOY_KEY presente (${#KEY} caracteres)."
+          case "$KEY" in
+            *"OPENSSH PRIVATE KEY"*) echo "Formato OpenSSH, correcto." ;;
+            *"ssh-ed25519 "*) echo "OJO: parece la clave PÚBLICA, no la privada." ; exit 1 ;;
+            *) echo "OJO: no parece una clave privada OpenSSH." ; exit 1 ;;
+          esac
+
       - name: Traer el código (repo privado, deploy key de sólo lectura)
         uses: actions/checkout@v4
         with:
