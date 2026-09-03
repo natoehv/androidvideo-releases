@@ -73,7 +73,10 @@ jobs:
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: '17'
+          # 25, no 17: es el JDK con el que este proyecto compila de verdad (el JBR de Android Studio, ver
+          # docs/notes/build.md). `:iptv-core` genera bytecode 17 igual, pero la CONFIGURACIÓN del módulo
+          # Android exige el JDK que espera AGP 9.
+          java-version: '25'
 
       # Hace falta aunque sólo se compile `:iptv-core`, que es Kotlin/JVM puro: Gradle CONFIGURA todos los
       # módulos del build, y `:composeApp` es Android y exige el SDK en la configuración.
@@ -83,10 +86,16 @@ jobs:
 
       - name: Compilar el worker (salida a archivo, ver el encabezado)
         run: |
-          if ! ./gradlew :iptv-core:workerJar --no-daemon --quiet > gradle.log 2>&1; then
-            echo "La compilación falló. El log NO se imprime porque este repo es público."
-            echo "Últimas líneas, sólo con los nombres de las tareas:"
-            grep -oE "^> Task :[a-zA-Z:-]+|FAILURE: [A-Za-z ]+" gradle.log | tail -20
+          if ! ./gradlew :iptv-core:workerJar --no-daemon > gradle.log 2>&1; then
+            echo "La compilación falló. El log completo NO se imprime porque este repo es público."
+            echo "--- Qué falló (sin líneas del compilador, que llevarían código) ---"
+            # Del bloque "What went wrong" hasta "Try:", que es donde Gradle dice la CAUSA (SDK que falta,
+            # dependencia que no resuelve, JDK incompatible). Se filtran las líneas del compilador de Kotlin
+            # (`e: file:///...`) y cualquier referencia a un .kt, que sí llevarían nombres del código.
+            sed -n "/What went wrong/,/^\* Try:/p" gradle.log \
+              | grep -vE "^e: |\.kt[:\)]|\.kts[:\)]" | head -30
+            echo "--- Tareas ejecutadas ---"
+            grep -oE "^> Task :[a-zA-Z0-9:_-]+" gradle.log | tail -10
             exit 1
           fi
           ls -l iptv-core/build/libs/worker.jar
