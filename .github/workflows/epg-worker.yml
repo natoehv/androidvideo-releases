@@ -42,6 +42,10 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: natoehv/trst_android
+          # `ref` EXPLÍCITO, no es adorno: sin él, checkout resuelve la rama por defecto llamando a la API
+          # REST con el GITHUB_TOKEN de este repo, que no ve el privado → "Not Found" aunque el SSH esté
+          # perfecto. Con `ref` puesto, ese paso no corre y todo va por git sobre SSH.
+          ref: main
           ssh-key: ${{ secrets.CODE_DEPLOY_KEY }}
           persist-credentials: false
 
