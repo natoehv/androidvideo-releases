@@ -8,13 +8,18 @@ name: Sonda IPTV (medición para el worker)
 # Corre en el repo PÚBLICO a propósito: en repos públicos los minutos de Actions son ilimitados y gratis,
 # así que no toca la cuota de 2000 min/mes de los privados.
 #
-# NO usa ningún secreto: las listas ya son de lectura pública en Firestore (decisión del proyecto), así que
-# el job las lee igual que la app. No imprime credenciales: sólo el host, el usuario enmascarado y el código.
+# ⚠️ LOS LOGS DE UN REPO PÚBLICO SON PÚBLICOS y no se pueden ocultar (no hay ajuste para eso: es parte de
+# lo que significa "público"). Por eso este job **sólo imprime agregados**: cuántas listas respondieron y
+# con qué código. Ni hosts, ni usuarios, ni ids de stream. Lo que se quiera en detalle se mira corriendo el
+# mismo script en local, donde el log es tuyo.
+#
+# Tampoco usa secretos: las listas ya son de lectura pública en Firestore (decisión del proyecto), así que
+# el job las lee igual que la app.
 
 on:
   workflow_dispatch:
   schedule:
-    # Cada 6 horas, para ver si el resultado es estable o si el panel bloquea después de un rato.
+    # Cada 6 horas, para ver si el resultado es estable o si el panel empieza a bloquear.
     - cron: '17 */6 * * *'
 
 concurrency:
@@ -26,19 +31,18 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: IP del runner
-        run: |
-          echo "IP pública del runner: $(curl -s --max-time 10 https://api.ipify.org || echo '?')"
-      - name: Sondear los paneles
+      - name: Sondear los paneles (sólo agregados)
         shell: python3 {0}
         run: |
           import json, urllib.request, urllib.parse, ssl
+          from collections import Counter
           PROJ = "android-video-7bdcc"
           U = f"https://firestore.googleapis.com/v1/projects/{PROJ}/databases/(default)/documents/config/iptv/portales?pageSize=100"
           docs = json.load(urllib.request.urlopen(U, timeout=30)).get("documents", [])
           def sv(f, k): return f.get(k, {}).get("stringValue", "")
           ctx = ssl.create_default_context(); ctx.check_hostname = False; ctx.verify_mode = ssl.CERT_NONE
           UA = {"User-Agent": "okhttp/4"}
+          q = urllib.parse.quote
           def code(url, rango=False):
               h = dict(UA)
               if rango: h["Range"] = "bytes=0-512"
@@ -47,34 +51,38 @@ jobs:
                   return str(r.status)
               except urllib.error.HTTPError as e: return str(e.code)
               except Exception as e: return type(e).__name__
-          q = urllib.parse.quote
-          print(f"{'lista':22} {'host':38} {'auth':6} {'cons':8} {'live':6}")
-          vivos = 0
+          auths, lives = Counter(), Counter()
+          total = 0
           for x in docs:
               f = x["fields"]
               base = sv(f, "server_port").rstrip("/")
               accs = f.get("accounts", {}).get("arrayValue", {}).get("values", [])
               if not base or not accs: continue
+              total += 1
+              # Enmascarar el host en los logs por si algo lo imprimiera sin querer (defensa en profundidad).
+              print(f"::add-mask::{urllib.parse.urlparse(base).netloc}")
               a = accs[0]["mapValue"]["fields"]
               us = a.get("user", {}).get("stringValue", ""); pw = a.get("password", {}).get("stringValue", "")
-              host = urllib.parse.urlparse(base).netloc
+              print(f"::add-mask::{us}"); print(f"::add-mask::{pw}")
               try:
                   ui = json.load(urllib.request.urlopen(
                       urllib.request.Request(f"{base}/player_api.php?username={q(us)}&password={q(pw)}", headers=UA),
                       timeout=20, context=ctx)).get("user_info", {})
-                  auth = str(ui.get("auth")); cons = f"{ui.get('active_cons')}/{ui.get('max_connections')}"
+                  auths[f"auth={ui.get('auth')}"] += 1
+                  if str(ui.get("auth")) != "1": continue
               except Exception as e:
-                  print(f"{sv(f,'name'):22} {host:38} {'FALLO':6} {type(e).__name__}")
+                  auths[f"error:{type(e).__name__}"] += 1
                   continue
-              live = "-"
-              if auth == "1":
-                  try:
-                      st = json.load(urllib.request.urlopen(
-                          urllib.request.Request(f"{base}/player_api.php?username={q(us)}&password={q(pw)}&action=get_live_streams", headers=UA),
-                          timeout=40, context=ctx))
-                      if st: live = code(f"{base}/live/{q(us)}/{q(pw)}/{st[0]['stream_id']}.ts", rango=True)
-                  except Exception as e: live = type(e).__name__[:8]
-                  if live.startswith("2"): vivos += 1
-              print(f"{sv(f,'name'):22} {host:38} {auth:6} {cons:8} {live:6}")
-          print()
-          print(f"RESULTADO: {vivos} listas reprodujeron un canal en vivo desde la IP del runner.")
+              try:
+                  st = json.load(urllib.request.urlopen(
+                      urllib.request.Request(f"{base}/player_api.php?username={q(us)}&password={q(pw)}&action=get_live_streams", headers=UA),
+                      timeout=40, context=ctx))
+                  lives[code(f"{base}/live/{q(us)}/{q(pw)}/{st[0]['stream_id']}.ts", rango=True) if st else "catálogo vacío"] += 1
+              except Exception as e:
+                  lives[f"error:{type(e).__name__}"] += 1
+          print(f"\nlistas Xtream con cuenta: {total}")
+          print(f"autenticación:  {dict(auths)}")
+          print(f"canal en vivo:  {dict(lives)}")
+          ok = sum(v for k, v in lives.items() if k.startswith("2"))
+          print(f"\nRESULTADO: {ok} de {total} listas reprodujeron un canal desde la IP del runner.")
+          print("Si eso es ~0 y desde casa funciona, el panel bloquea datacenter y el worker no sirve para descargar catálogos.")
