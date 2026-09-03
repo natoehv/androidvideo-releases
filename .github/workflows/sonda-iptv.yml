@@ -1,0 +1,80 @@
+name: Sonda IPTV (medición para el worker)
+
+# FASE 0 del plan del worker (docs/PLAN_CLOUD_WORKER.md en el repo del código).
+#
+# Mide LA trampa nº1 antes de construir nada encima: ¿los paneles IPTV aceptan la IP de un runner de
+# GitHub, que es un rango de datacenter? Sin eso, todo el plan se cae.
+#
+# Corre en el repo PÚBLICO a propósito: en repos públicos los minutos de Actions son ilimitados y gratis,
+# así que no toca la cuota de 2000 min/mes de los privados.
+#
+# NO usa ningún secreto: las listas ya son de lectura pública en Firestore (decisión del proyecto), así que
+# el job las lee igual que la app. No imprime credenciales: sólo el host, el usuario enmascarado y el código.
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Cada 6 horas, para ver si el resultado es estable o si el panel bloquea después de un rato.
+    - cron: '17 */6 * * *'
+
+concurrency:
+  group: sonda-iptv
+  cancel-in-progress: false
+
+jobs:
+  sonda:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: IP del runner
+        run: |
+          echo "IP pública del runner: $(curl -s --max-time 10 https://api.ipify.org || echo '?')"
+      - name: Sondear los paneles
+        shell: python3 {0}
+        run: |
+          import json, urllib.request, urllib.parse, ssl
+          PROJ = "android-video-7bdcc"
+          U = f"https://firestore.googleapis.com/v1/projects/{PROJ}/databases/(default)/documents/config/iptv/portales?pageSize=100"
+          docs = json.load(urllib.request.urlopen(U, timeout=30)).get("documents", [])
+          def sv(f, k): return f.get(k, {}).get("stringValue", "")
+          ctx = ssl.create_default_context(); ctx.check_hostname = False; ctx.verify_mode = ssl.CERT_NONE
+          UA = {"User-Agent": "okhttp/4"}
+          def code(url, rango=False):
+              h = dict(UA)
+              if rango: h["Range"] = "bytes=0-512"
+              try:
+                  r = urllib.request.urlopen(urllib.request.Request(url, headers=h), timeout=20, context=ctx)
+                  return str(r.status)
+              except urllib.error.HTTPError as e: return str(e.code)
+              except Exception as e: return type(e).__name__
+          q = urllib.parse.quote
+          print(f"{'lista':22} {'host':38} {'auth':6} {'cons':8} {'live':6}")
+          vivos = 0
+          for x in docs:
+              f = x["fields"]
+              base = sv(f, "server_port").rstrip("/")
+              accs = f.get("accounts", {}).get("arrayValue", {}).get("values", [])
+              if not base or not accs: continue
+              a = accs[0]["mapValue"]["fields"]
+              us = a.get("user", {}).get("stringValue", ""); pw = a.get("password", {}).get("stringValue", "")
+              host = urllib.parse.urlparse(base).netloc
+              try:
+                  ui = json.load(urllib.request.urlopen(
+                      urllib.request.Request(f"{base}/player_api.php?username={q(us)}&password={q(pw)}", headers=UA),
+                      timeout=20, context=ctx)).get("user_info", {})
+                  auth = str(ui.get("auth")); cons = f"{ui.get('active_cons')}/{ui.get('max_connections')}"
+              except Exception as e:
+                  print(f"{sv(f,'name'):22} {host:38} {'FALLO':6} {type(e).__name__}")
+                  continue
+              live = "-"
+              if auth == "1":
+                  try:
+                      st = json.load(urllib.request.urlopen(
+                          urllib.request.Request(f"{base}/player_api.php?username={q(us)}&password={q(pw)}&action=get_live_streams", headers=UA),
+                          timeout=40, context=ctx))
+                      if st: live = code(f"{base}/live/{q(us)}/{q(pw)}/{st[0]['stream_id']}.ts", rango=True)
+                  except Exception as e: live = type(e).__name__[:8]
+                  if live.startswith("2"): vivos += 1
+              print(f"{sv(f,'name'):22} {host:38} {auth:6} {cons:8} {live:6}")
+          print()
+          print(f"RESULTADO: {vivos} listas reprodujeron un canal en vivo desde la IP del runner.")
