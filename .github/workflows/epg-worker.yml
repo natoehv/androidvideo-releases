@@ -1,0 +1,82 @@
+name: EPG (worker)
+
+# FASE 1 del plan del worker (docs/PLAN_CLOUD_WORKER.md, en el repo del código).
+#
+# Arma la ventana de EPG y la sube a `config/iptv/epg/w1`, que es EL MISMO documento que la app ya lee
+# (`IptvEpgCloud`). O sea: esto no agrega una función nueva, ocupa el lugar del escritor que hoy falta.
+# Medido: armar la ventana cuesta bajar decenas de MB de XML, y en un box de gama baja ese trabajo le compite
+# al reproductor —por eso en TV la ingesta local está desactivada a propósito y el EPG dependía de que
+# alguien abriera el teléfono—. Con esto, ningún aparato baja el XML nunca.
+#
+# ─── SOBRE LO QUE SE VE (repo público) ──────────────────────────────────────────────────────────────────
+# El archivo y los logs son públicos y no hay ajuste para ocultarlos. Por eso:
+#  · El código sale del repo PRIVADO con una deploy key de sólo lectura, y `persist-credentials: false`
+#    para que no quede escrita en `.git/config` del runner.
+#  · La salida de Gradle va a un archivo y NO se imprime: un error de compilación imprimiría rutas y
+#    líneas del código privado.
+#  · El worker nunca imprime la URL de un panel (lleva usuario y contraseña); sólo agregados.
+#  · Contra Google se autentica con Workload Identity Federation: no hay ninguna llave de larga vida.
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Cada 6 h. La ventana es de 36 h, así que aguanta tres corridas salteadas (los crons son best-effort).
+    - cron: '23 */6 * * *'
+
+concurrency:
+  group: epg-worker
+  cancel-in-progress: false
+
+permissions:
+  # Imprescindible para WIF: es el token OIDC que Google cambia por uno de acceso. Sin esto el paso de
+  # autenticación falla con "missing id-token permission".
+  id-token: write
+  contents: read
+
+jobs:
+  epg:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Traer el código (repo privado, deploy key de sólo lectura)
+        uses: actions/checkout@v4
+        with:
+          repository: natoehv/trst_android
+          ssh-key: ${{ secrets.CODE_DEPLOY_KEY }}
+          persist-credentials: false
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      # Hace falta aunque sólo se compile `:iptv-core`, que es Kotlin/JVM puro: Gradle CONFIGURA todos los
+      # módulos del build, y `:composeApp` es Android y exige el SDK en la configuración.
+      - uses: android-actions/setup-android@v3
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Compilar el worker (salida a archivo, ver el encabezado)
+        run: |
+          if ! ./gradlew :iptv-core:workerJar --no-daemon --quiet > gradle.log 2>&1; then
+            echo "La compilación falló. El log NO se imprime porque este repo es público."
+            echo "Últimas líneas, sólo con los nombres de las tareas:"
+            grep -oE "^> Task :[a-zA-Z:-]+|FAILURE: [A-Za-z ]+" gradle.log | tail -20
+            exit 1
+          fi
+          ls -l iptv-core/build/libs/worker.jar
+
+      - name: Autenticar contra Google (WIF, sin llaves)
+        id: auth
+        uses: google-github-actions/auth@v2
+        with:
+          project_id: android-video-7bdcc
+          workload_identity_provider: ${{ vars.WIF_PROVIDER }}
+          service_account: ${{ vars.WIF_SA }}
+          token_format: access_token
+
+      - name: Armar y subir la ventana de EPG
+        env:
+          FIRESTORE_PROJECT: android-video-7bdcc
+          ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
+        run: java -jar iptv-core/build/libs/worker.jar --tarea=epg --horas=36
