@@ -31,7 +31,9 @@ permissions:
   # Imprescindible para WIF: es el token OIDC que Google cambia por uno de acceso. Sin esto el paso de
   # autenticación falla con "missing id-token permission".
   id-token: write
-  contents: read
+  # `write` por el KEEPALIVE (ver el último paso): GitHub deshabilita los crons de un repo sin commits por 60
+  # días, y una release por API no cuenta como commit.
+  contents: write
 
 jobs:
   epg:
@@ -148,9 +150,32 @@ jobs:
       # En el MISMO job: el checkout, el jar y el token ya están pagados, y son dos trabajos que van juntos
       # (los dos leen los catálogos de las mismas listas). `if: always()` porque son independientes: que un
       # panel rompa la ingesta del EPG no es razón para quedarse sin guía.
-      - name: Armar y subir la guía curada
+      # Este repo (el público), en una carpeta aparte: el workspace lo ocupa el checkout del privado. Hace
+      # falta para poder commitear el estado.
+      - name: Traer este repo (para el estado)
+        if: always()
+        uses: actions/checkout@v4
+        with:
+          path: publico
+
+      - name: Armar y subir la guía, los espejos, la agenda, las cuentas y los catálogos
         if: always()
         env:
           FIRESTORE_PROJECT: android-video-7bdcc
           ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
-        run: java -jar iptv-core/build/libs/worker.jar --tarea=guia
+        run: java -jar iptv-core/build/libs/worker.jar --tarea=guia --estado=publico/estado/worker.json
+
+      # KEEPALIVE + página de salud. Se commitea SÓLO cuando cambia el día: un commit diario alcanza para que
+      # GitHub no apague el cron (60 días sin actividad) y no llena el historial con cuatro commits por día.
+      # El archivo no tiene datos sensibles: cantidades y tiempos, ningún host ni usuario.
+      - name: Guardar el estado del worker en el repo (una vez por día)
+        if: always()
+        working-directory: publico
+        run: |
+          [ -f estado/worker.json ] || { echo "sin estado que guardar"; exit 0; }
+          DIA_NUEVO=$(python3 -c "import json;print(json.load(open('estado/worker.json')).get('dia',''))")
+          DIA_VIEJO=$(git show HEAD:estado/worker.json 2>/dev/null | python3 -c "import json,sys;print(json.load(sys.stdin).get('dia',''))" 2>/dev/null || echo "")
+          if [ "$DIA_NUEVO" = "$DIA_VIEJO" ]; then echo "mismo día ($DIA_NUEVO): no se commitea"; exit 0; fi
+          git config user.name "worker"; git config user.email "worker@users.noreply.github.com"
+          git add estado/worker.json
+          git commit -q -m "Estado del worker: $DIA_NUEVO" && git push -q && echo "estado commiteado ($DIA_NUEVO)"
