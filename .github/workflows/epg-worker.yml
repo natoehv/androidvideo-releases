@@ -1,4 +1,4 @@
-name: EPG (worker)
+name: EPG y guía (worker)
 
 # FASE 1 del plan del worker (docs/PLAN_CLOUD_WORKER.md, en el repo del código).
 #
@@ -144,3 +144,13 @@ jobs:
           FIRESTORE_PROJECT: android-video-7bdcc
           ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
         run: java -jar iptv-core/build/libs/worker.jar --tarea=epg --horas=36
+
+      # En el MISMO job: el checkout, el jar y el token ya están pagados, y son dos trabajos que van juntos
+      # (los dos leen los catálogos de las mismas listas). `if: always()` porque son independientes: que un
+      # panel rompa la ingesta del EPG no es razón para quedarse sin guía.
+      - name: Armar y subir la guía curada
+        if: always()
+        env:
+          FIRESTORE_PROJECT: android-video-7bdcc
+          ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
+        run: java -jar iptv-core/build/libs/worker.jar --tarea=guia
