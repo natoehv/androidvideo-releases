@@ -1,0 +1,14 @@
+{
+  "espejosCanales": 307,
+  "codigo": 0,
+  "lastRun": 1788539863555,
+  "catalogosPublicados": 46,
+  "by": "worker",
+  "guiaCanales": 308,
+  "listas": 30,
+  "cuentas": 162,
+  "limpieza": "config/iptv/guide: 0 de 1 · config/iptv/catalog: 0 de 170 · iptv_status: 0 de 169 · iptv_usage: 0 de 79",
+  "dia": "2026-09-04",
+  "catalogosFrescos": 4,
+  "duracionMs": 381412
+}
