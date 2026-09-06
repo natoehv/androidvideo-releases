@@ -1,14 +1,14 @@
 {
-  "espejosCanales": 291,
+  "espejosCanales": 307,
   "codigo": 0,
-  "lastRun": 1788583640480,
-  "catalogosPublicados": 0,
+  "lastRun": 1788670553042,
+  "catalogosPublicados": 1,
   "by": "worker",
-  "guiaCanales": 292,
-  "listas": 30,
-  "cuentas": 162,
-  "limpieza": "config/iptv/guide: 0 de 1 · config/iptv/catalog: 0 de 170 · iptv_status: 0 de 169 · iptv_usage: 0 de 79",
-  "dia": "2026-09-05",
-  "catalogosFrescos": 51,
-  "duracionMs": 283901
+  "guiaCanales": 308,
+  "listas": 29,
+  "cuentas": 175,
+  "limpieza": "config/iptv/guide: 0 de 1 · config/iptv/catalog: 0 de 164 · iptv_status: 6 de 188 · iptv_usage: 0 de 79",
+  "dia": "2026-09-06",
+  "catalogosFrescos": 44,
+  "duracionMs": 253851
 }
