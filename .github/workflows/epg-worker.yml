@@ -163,6 +163,8 @@ jobs:
         env:
           FIRESTORE_PROJECT: android-video-7bdcc
           ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
+          # Key de TMDB (v3) para resolver los ids de los títulos. Opcional: sin ella el paso avisa y sigue.
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: java -jar iptv-core/build/libs/worker.jar --tarea=guia --estado=publico/estado/worker.json
 
       # KEEPALIVE + página de salud. Se commitea SÓLO cuando cambia el día: un commit diario alcanza para que
