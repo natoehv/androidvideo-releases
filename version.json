@@ -1,7 +1,7 @@
 {
-  "versionCode": 315,
-  "versionName": "2.2.175",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.175/AndroidVideo.apk",
-  "changelog": "v2.2.175 — el subtítulo y el audio quedan guardados con la serie o la película\n\n• El subtítulo elegido y los que hayas descargado quedan guardados con el contenido: al volver a abrirlo\n  siguen ahí, y aparecen en TODOS los servidores de esa serie o película (antes, al cambiar de servidor, el\n  subtítulo recién descargado no figuraba).\n• La pista de audio elegida se guarda por título: si elegís \"Latino\" en un capítulo, vale para toda la serie\n  y para cualquier servidor. Se guarda por idioma y nombre de la pista, no por su posición, así que también\n  acierta cuando el servidor nuevo las ordena distinto; si ese idioma no está, se deja la del reproductor.",
+  "versionCode": 316,
+  "versionName": "2.2.176",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.176/AndroidVideo.apk",
+  "changelog": "v2.2.176 — eventos en el inmersivo, del canal del partido al canal oficial, y no más saltos de canal\n\n• Los eventos ya aparecen en el modo TV desde que abrís: los canales de eventos que publica el worker entran\n  también en la apertura rápida. Y si la parte de eventos todavía se está armando, el menú lo dice: en qué\n  paso va, hace cuánto, y si terminó sin encontrar nada, por qué. Con un botón para armarla ahí mismo.\n• Al abrir un partido se sigue usando el canal dedicado, pero si falla dos veces aparece un botón para verlo\n  en el canal que lo transmite (ESPN, TNT Sports…), con sus espejos y su guía, en vez de esperar a que la app\n  pruebe cuenta por cuenta.\n• Al grabar un partido, lo mismo: se graba del canal del partido y, si no funciona, la grabación sigue en el\n  canal oficial y te avisa.\n• Estabas viendo un canal y, al terminar de cargar las listas, la app te cambiaba a otro. Ya no: el canal en\n  curso se conserva por su identidad, y si no está en la guía nueva, no se adopta mientras estés viendo algo.\n  Lo que se ve tampoco se recarga.",
   "required": false
 }
