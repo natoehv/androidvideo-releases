@@ -102,6 +102,9 @@ jobs:
       # módulos del build, y `:composeApp` es Android y exige el SDK en la configuración.
       - uses: android-actions/setup-android@v3
         if: steps.jar.outputs.cache-hit != 'true'
+        with:
+          # Google quitó el paquete legacy 'tools' del SDK → setup-android por defecto lo pide y falla.
+          packages: platform-tools
 
       - uses: gradle/actions/setup-gradle@v4
         if: steps.jar.outputs.cache-hit != 'true'
