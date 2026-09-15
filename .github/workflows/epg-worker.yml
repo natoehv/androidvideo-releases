@@ -183,4 +183,12 @@ jobs:
           if [ "$DIA_NUEVO" = "$DIA_VIEJO" ]; then echo "mismo día ($DIA_NUEVO): no se commitea"; exit 0; fi
           git config user.name "worker"; git config user.email "worker@users.noreply.github.com"
           git add estado/worker.json
-          git commit -q -m "Estado del worker: $DIA_NUEVO" && git push -q && echo "estado commiteado ($DIA_NUEVO)"
+          git commit -q -m "Estado del worker: $DIA_NUEVO" || { echo "nada que commitear"; exit 0; }
+          # main pudo avanzar entre el checkout y ahora (release que reescribe version.json, edición del
+          # workflow, otra corrida): reintentar con rebase para no fallar con non-fast-forward.
+          for intento in 1 2 3; do
+            if git push -q; then echo "estado commiteado ($DIA_NUEVO)"; exit 0; fi
+            echo "push rechazado (main avanzó) → rebase y reintento $intento"
+            git pull -q --rebase --autostash origin main || true
+          done
+          echo "no se pudo pushear el estado tras 3 intentos (no bloquea el worker)"; exit 0
