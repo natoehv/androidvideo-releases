@@ -1,7 +1,7 @@
 {
-  "versionCode": 321,
-  "versionName": "2.2.181",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.181/AndroidVideo.apk",
-  "changelog": "Versión 2.2.181\n\n• Cinecalidad.rs: el servidor \"⬇ Mega\" ahora abre el archivo y no el acortador de anuncios.\n• Agregar una lista/cuenta IPTV ya no descarga nada: se guarda en Firebase y el worker la baja cuando corre (nuevo switch \"Dejar la carga al worker\" en Ajustes, activado por defecto).\n• \"Verificar listas\" reconoce los volcados con etiquetas en versalitas Unicode (ꜱᴇʀᴠᴇʀ/ᴜꜱᴇʀ/ᴩᴀꜱꜱ).\n• Nuevo \"Revalidar lo que el worker ve mal\" (en Chequear cuentas agregadas): revalida desde el teléfono sólo lo que el worker da por caído y publica la corrección.\n• TV box: \"Continuar viendo\" y \"Favoritos\" entran al primer elemento de la grilla, no al medio.",
+  "versionCode": 322,
+  "versionName": "2.2.182",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.182/AndroidVideo.apk",
+  "changelog": "Versión 2.2.182\n\n• Casting: un canal que falla en el Chromecast (el receptor no lo decodifica, no arranca o se cuelga) ya NO baja su puntuación — en el teléfono se sigue viendo bien. Sólo un fallo real del proveedor la baja.\n• Modo TV: se corrige que, con la cuenta regresiva de salto de espejo en pantalla y el canal cargando, cambiara de cuenta igual (ya no se apilan recuperaciones).",
   "required": false
 }
