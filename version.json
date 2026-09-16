@@ -1,7 +1,7 @@
 {
-  "versionCode": 322,
-  "versionName": "2.2.182",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.182/AndroidVideo.apk",
-  "changelog": "Versión 2.2.182\n\n• Casting: un canal que falla en el Chromecast (el receptor no lo decodifica, no arranca o se cuelga) ya NO baja su puntuación — en el teléfono se sigue viendo bien. Sólo un fallo real del proveedor la baja.\n• Modo TV: se corrige que, con la cuenta regresiva de salto de espejo en pantalla y el canal cargando, cambiara de cuenta igual (ya no se apilan recuperaciones).",
+  "versionCode": 323,
+  "versionName": "2.2.183",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.183/AndroidVideo.apk",
+  "changelog": "Versión 2.2.183\n\nTMDB en la ficha y las tarjetas (usa el índice que arma el worker):\n• Carátulas de VOD IPTV desde la caché de TMDB (sin llamada extra).\n• Ficha de detalle rica: sinopsis, nota, géneros, elenco y tráiler.\n• Stills de episodios en series (miniatura + nombre + sinopsis por episodio).\n• Backdrop de fondo en la ficha (TV/tablet) y badge de nota en las tarjetas.\n• El worker rellena de a poco los títulos viejos que no tenían póster/nota.\n\nUI:\n• Ficha en teléfono más compacta: la carátula va en el player, y debajo el texto y los episodios.\n• Lista de episodios rediseñada (miniatura a la izquierda) y, en Android TV/box, en tira horizontal para el control.\n\nIPTV:\n• \"Revalidar lo que el worker ve mal\" ahora lee el estado en una sola lectura (ya no se queda en \"0/1\").",
   "required": false
 }
