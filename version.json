@@ -1,7 +1,7 @@
 {
-  "versionCode": 325,
-  "versionName": "2.2.185",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.185/AndroidVideo.apk",
-  "changelog": "v2.2.185\n\n• SYNC ARREGLADO (importante): la API movió la ruta a /api/v4/sync. La vieja\n  seguía respondiendo 200, pero con el catálogo vacío y los servidores de\n  reproducción ENVENENADOS (dominios con letras cambiadas y disabled.invalid),\n  que quedaban guardados en la base local. Al primer sync con esta versión se\n  corrigen solos.\n• Series IPTV: se cortó el bucle infinito de rotación de cuentas (la ficha\n  cambiaba de cuenta sin parar y nunca cargaba) y la ficha vacía al abrir desde\n  Favoritos o Búsqueda; ahora, si ninguna lista la tiene, lo dice.\n• Inmersivo: apertura en frío desde la guía que publica el worker en vez de\n  reconstruirla (45-70 s), el cajón de canales abre sin demora, y se arreglaron\n  el canal que se reseteaba a La Red, el reinicio solo y el orden de espejos.\n• Ficha: el backdrop de TMDB como fondo del player mientras no se reproduce.\n• Al rotar de cuenta IPTV ahora se ve qué está pasando (\"Probando cuenta 3 de\n  12…\") en vez de rotar en silencio.\n• Búsqueda: no se ofrecen resultados de listas sin cuentas usables, y los\n  títulos se limpian (año/idioma/calidad) para encontrar más.",
+  "versionCode": 326,
+  "versionName": "2.2.186",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.186/AndroidVideo.apk",
+  "changelog": "v2.2.186\n\n• Estrenos: \"Dónde verlo\" ahora se dibuja a medida que responde cada fuente, en\n  vez de esperar a la última. Y si una fuente se cuelga ya no deja la búsqueda\n  girando para siempre: cada una tiene su propio tope. Lo mismo en \"Otras\n  fuentes\" de la ficha.\n• Al elegir un episodio ya NO se abre en pantalla completa (sobre todo con\n  casting, donde el vídeo está en la TV y el teléfono es el mando). El\n  fullscreen queda como acción explícita.\n• Casting: los episodios se ven como \"T1E05\" y no con el número absoluto, y el\n  botón de saltar la apertura usa las marcas reales en vez de 90 s fijos.\n• Ficha: el fondo del player se funde con el detalle en vez de cortar en negro.\n• Animes con numeración corrida (One Piece): ahora se obtienen nombre y\n  miniatura de TODOS los episodios, no sólo de la primera temporada.",
   "required": false
 }
