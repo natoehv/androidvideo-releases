@@ -1,7 +1,7 @@
 {
-  "versionCode": 324,
-  "versionName": "2.2.184",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.184/AndroidVideo.apk",
-  "changelog": "v2.2.184\n\n• Player de episodios: abre en fullscreen al elegir un episodio; con los\n  controles visibles muestra arriba-izquierda \"Serie T1E01\" y el nombre del\n  episodio como subtítulo.\n• Episodios: nombre limpio, sin repetir serie ni SxxExx en el texto.\n• Reproducción: marco negro reservado para el player (letterbox) sin importar\n  la proporción del video.\n• Android TV: tira de episodios horizontal, con foco sobre la miniatura,\n  número/título visibles y márgenes ajustados (menos aire entre temporadas,\n  tabs y tarjetas).",
+  "versionCode": 325,
+  "versionName": "2.2.185",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.185/AndroidVideo.apk",
+  "changelog": "v2.2.185\n\n• SYNC ARREGLADO (importante): la API movió la ruta a /api/v4/sync. La vieja\n  seguía respondiendo 200, pero con el catálogo vacío y los servidores de\n  reproducción ENVENENADOS (dominios con letras cambiadas y disabled.invalid),\n  que quedaban guardados en la base local. Al primer sync con esta versión se\n  corrigen solos.\n• Series IPTV: se cortó el bucle infinito de rotación de cuentas (la ficha\n  cambiaba de cuenta sin parar y nunca cargaba) y la ficha vacía al abrir desde\n  Favoritos o Búsqueda; ahora, si ninguna lista la tiene, lo dice.\n• Inmersivo: apertura en frío desde la guía que publica el worker en vez de\n  reconstruirla (45-70 s), el cajón de canales abre sin demora, y se arreglaron\n  el canal que se reseteaba a La Red, el reinicio solo y el orden de espejos.\n• Ficha: el backdrop de TMDB como fondo del player mientras no se reproduce.\n• Al rotar de cuenta IPTV ahora se ve qué está pasando (\"Probando cuenta 3 de\n  12…\") en vez de rotar en silencio.\n• Búsqueda: no se ofrecen resultados de listas sin cuentas usables, y los\n  títulos se limpian (año/idioma/calidad) para encontrar más.",
   "required": false
 }
