@@ -1,7 +1,7 @@
 {
-  "versionCode": 326,
-  "versionName": "2.2.186",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.186/AndroidVideo.apk",
-  "changelog": "v2.2.186\n\n• Estrenos: \"Dónde verlo\" ahora se dibuja a medida que responde cada fuente, en\n  vez de esperar a la última. Y si una fuente se cuelga ya no deja la búsqueda\n  girando para siempre: cada una tiene su propio tope. Lo mismo en \"Otras\n  fuentes\" de la ficha.\n• Al elegir un episodio ya NO se abre en pantalla completa (sobre todo con\n  casting, donde el vídeo está en la TV y el teléfono es el mando). El\n  fullscreen queda como acción explícita.\n• Casting: los episodios se ven como \"T1E05\" y no con el número absoluto, y el\n  botón de saltar la apertura usa las marcas reales en vez de 90 s fijos.\n• Ficha: el fondo del player se funde con el detalle en vez de cortar en negro.\n• Animes con numeración corrida (One Piece): ahora se obtienen nombre y\n  miniatura de TODOS los episodios, no sólo de la primera temporada.",
+  "versionCode": 327,
+  "versionName": "2.2.187",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.187/AndroidVideo.apk",
+  "changelog": "v2.2.187\n\n• NUEVO: \"Descubrir\" dentro de Explorar — filas de TMDB (tendencias de la\n  semana, películas y series populares, mejor valoradas) con \"Ver más\" por\n  fila. Al abrir un título se ve su ficha completa y se busca en tus fuentes\n  dónde verlo, igual que en Estrenos.\n• Búsqueda de Hackstore arreglada: su API ignoraba en silencio cualquier texto\n  de más de 16 bytes y devolvía 15 títulos sin relación (en español el límite\n  llega antes, porque cada tilde o ñ cuenta doble). Ahora se recorta antes de\n  pedir y vuelve a encontrar lo que corresponde.\n• Al abrir un título desde Estrenos o Explorar y volver, ya se regresa a esa\n  pestaña y no al inicio.",
   "required": false
 }
