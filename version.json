@@ -1,7 +1,7 @@
 {
-  "versionCode": 327,
-  "versionName": "2.2.187",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.187/AndroidVideo.apk",
-  "changelog": "v2.2.187\n\n• NUEVO: \"Descubrir\" dentro de Explorar — filas de TMDB (tendencias de la\n  semana, películas y series populares, mejor valoradas) con \"Ver más\" por\n  fila. Al abrir un título se ve su ficha completa y se busca en tus fuentes\n  dónde verlo, igual que en Estrenos.\n• Búsqueda de Hackstore arreglada: su API ignoraba en silencio cualquier texto\n  de más de 16 bytes y devolvía 15 títulos sin relación (en español el límite\n  llega antes, porque cada tilde o ñ cuenta doble). Ahora se recorta antes de\n  pedir y vuelve a encontrar lo que corresponde.\n• Al abrir un título desde Estrenos o Explorar y volver, ya se regresa a esa\n  pestaña y no al inicio.",
+  "versionCode": 328,
+  "versionName": "2.2.188",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.188/AndroidVideo.apk",
+  "changelog": "• LaMovie: ahora viene ACTIVADA por defecto, y quedó usable de punta a punta.\n• LaMovie: se ven las carátulas (la base de las imágenes estaba mal).\n• LaMovie: ya no se cierra la app al elegir un servidor en el reproductor.\n• LaMovie: el video se reproduce en el reproductor propio (antes se quedaba en el visor web).\n• LaMovie: las series muestran TODOS sus episodios, por temporada.\n• LaMovie: las novelas muestran todos sus capítulos.\n• LaMovie: \"Ver más\" de Series/Animes/Novelas ya no muestra películas.\n• LaMovie: al volver de una ficha, los carruseles ya no cambian de contenido solos.\n• LaMovie: chips de género, los mismos que el sitio.\n• Los chips de género abren la grilla completa (con scroll infinito) en vez de la pantalla de Buscar. En Hackstore además filtraban mal.\n• Episodios: las tabs de temporada quedan fijas bajo el reproductor al hacer scroll.\n• Episodios: la descripción va debajo, a todo el ancho, en vez de apretada al lado de la miniatura.\n• Continuar viendo: en TV el foco vuelve a arrancar en el primer título (caía al medio de la lista).\n• Anikoto y Doramasflix vienen desactivadas por defecto.",
   "required": false
 }
