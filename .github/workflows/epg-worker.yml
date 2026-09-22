@@ -38,7 +38,7 @@ permissions:
 jobs:
   epg:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 60
     steps:
       # Sin esto el fallo MIENTE: cuando `ssh-key` llega vacío, checkout no avisa — se cae al GITHUB_TOKEN,
       # que no ve el repo privado, y el error es "Repository not found", que manda a buscar el repo o los
