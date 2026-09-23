@@ -1,7 +1,7 @@
 {
-  "versionCode": 331,
-  "versionName": "2.2.191",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.191/AndroidVideo.apk",
-  "changelog": "• Modo TV inmersivo: vuelve al canal que estabas viendo, aunque al abrir la guía todavía no lo tenga; salta a él en cuanto aparece, y si cambias de canal manda tu elección\n• Modo TV inmersivo: se terminó el \"la búsqueda de espejos tardó demasiado\" que no se arreglaba hasta cerrar la app — ahora se recalcula solo cuando llega el catálogo del worker\n• Listas: si el panel se mudó de dominio, se puede cambiar el servidor por el host que sí responde, conservando todas sus cuentas (el dominio viejo queda como espejo)\n• Listas: no se pueden crear dos con el mismo nombre\n• Cuentas: \"Revalidar lo que el worker ve mal\" archiva sólo cuando el panel rechaza la credencial (401/403); un timeout o un 5xx ya no archivan nada\n• Cuentas archivadas: se identifican por servidor, así el editor deja de mostrarlas activas y el botón Archivar no le pega a la lista equivocada\n• Películas y episodios: se prueban TODAS las cuentas usables de la lista, no sólo la activa\n• Episodios: deja de decir \"no hay episodios\" mientras sigue buscando\n• Explorar: fila de eventos en vivo, con escudos, torneo y el logo del canal de fondo; la agenda va primero y no se repiten los eventos entre listas\n• Explorar: caché para no consultar las fuentes a cada rato\n• \"Continuar viendo\" reemplaza a Descargas en el acceso rápido (Descargas sigue en Cuenta)\n• Control remoto: manda nombre, lista y stream id del canal, así el televisor abre el canal correcto\n• Worker: sondea las cuentas en paralelo entre listas (corridas mucho más cortas) y su log ya no se contradice sobre qué listas alcanza\n• Textos de la app en español neutro",
+  "versionCode": 332,
+  "versionName": "2.2.192",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.192/AndroidVideo.apk",
+  "changelog": "• Continuar viendo: la lista deja de moverse sola mientras cargan las fuentes; al entrar con el mando el foco siempre queda en el primer elemento, y desde que tocas una tecla el control es tuyo",
   "required": false
 }
