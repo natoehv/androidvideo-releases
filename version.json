@@ -1,7 +1,7 @@
 {
-  "versionCode": 333,
-  "versionName": "2.2.193",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.193/AndroidVideo.apk",
-  "changelog": "• Música: 45 canales nuevos en el inmersivo — toda la familia Stingray (karaoke, conciertos, 80s, 70s, latino, classica, jazz, country…), MTV Live/Classic/00s/80s/90s, XITE y sus temáticas, Concert Channel, Qello Concerts, Retro Music Television, Vevo Retro Rock, Music Top, Pasión Ranchera, Bandamax, KpopTV, Disney Music y That's 70s/80s/90s\n• \"13 Festival\" pasa a Chile como canal propio, ya no confundido con Canal 13\n• \"The Retro Channel\" pasa a Infantil\n• Las categorías de eventos se mueven al final del menú del inmersivo\n• Los espejos publicados por el worker ya no se descartan por antiguos: es la causa de que en el TV box hasta un canal de \"Chile\" se fuera a buscar espejos por su cuenta, se quedara pegado y cerrara la app\n• La búsqueda de espejos ya no retiene en memoria los catálogos de todas las listas a la vez",
+  "versionCode": 334,
+  "versionName": "2.2.194",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.194/AndroidVideo.apk",
+  "changelog": "• FuegoCine ya reproduce: servidores de streaming reales de cada película y episodio, y enlaces de descarga\n• FuegoCine: los chips de género del inicio y el filtro \"Género\" de Buscar ya traen resultados (volvían vacíos)\n• FuegoCine: la búsqueda encuentra más (antes los episodios se comían los resultados) y trae las series que sólo aparecían por sus episodios\n• FuegoCine: carga más rápido y \"Mi lista\"/\"Continuar viendo\" reabren los títulos después de reiniciar la app\n• Las fuentes web cuyo sitio no responde se marcan \"momentáneamente fuera de servicio\" en el selector y en Configuración (con botón \"Revisar disponibilidad\")\n• Agenda: entran la Nations League (UEFA y CONCACAF), el Torneo Proyección y el campeonato femenino chileno\n• Espejos: un fallo de la búsqueda ya no se muestra como \"tardó demasiado\" y queda anotado en el diagnóstico\n• Detalle de series: la miniatura del episodio ya no tiene las esquinas redondeadas sueltas",
   "required": false
 }
