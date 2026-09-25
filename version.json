@@ -1,7 +1,7 @@
 {
-  "versionCode": 336,
-  "versionName": "2.2.196",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.196/AndroidVideo.apk",
-  "changelog": "• Cuentas IPTV: el archivado ya se sincroniza también DESDE Firebase, no sólo hacia — una cuenta archivada desde otro dispositivo (o por el proceso automático) ahora se detecta y deja de ofrecerse como espejo o para reproducir, en vez de seguir usándose sin que este teléfono se entere",
+  "versionCode": 337,
+  "versionName": "2.2.197",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.197/AndroidVideo.apk",
+  "changelog": "• Inmersivo: el cajón de canales ya no se demora al abrir cuando hay muchos espejos (100+)\n• Inmersivo: un canal que sí está cargando (los datos llegan) ya no salta al siguiente antes de tiempo — se le da el doble de margen\n• Inmersivo: el salto automático de espejo avisa por qué falló (HTTP, sin datos, no decodifica) en vez de un contador genérico",
   "required": false
 }
