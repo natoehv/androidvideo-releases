@@ -1,7 +1,7 @@
 {
-  "versionCode": 335,
-  "versionName": "2.2.195",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.195/AndroidVideo.apk",
-  "changelog": "• Inmersivo en TV box: se dejó de cerrar por memoria — el zapeo entre listas ya no carga el catálogo entero de la lista para leer un número, y el diccionario de canales deja de ser el 80% de la memoria que pedía la app\n• Inmersivo: el toque abre el menú lateral a la primera (antes costaba, sobre todo con muchos espejos)\n• \"Continuar viendo\" del menú principal: una película o canal de otra lista ya cambia de lista sola en vez de mostrar \"se bajaron tantos segundos y no alcanza a reproducirse\"\n• Espejos: se auditó el catálogo publicado y se corrigieron cuatro agrupaciones incorrectas (un canal de fútbol de Ecuador ofrecido como CDF de Chile, un alias de Fox Sports 3 mal puesto en ESPN 7, TV+ confundiéndose con Apple TV+/Bloomberg TV+/Sport TV+, y Space con Lost in Space)\n• Espejos: ahora también se filtra por el GRUPO de la lista, no sólo por el nombre del canal (corrige Canal 13 de Argentina apareciendo como espejo del Canal 13 chileno)\n• Lost también se reconoce en español (\"Perdidos\") en 24/7 Series",
+  "versionCode": 336,
+  "versionName": "2.2.196",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.196/AndroidVideo.apk",
+  "changelog": "• Cuentas IPTV: el archivado ya se sincroniza también DESDE Firebase, no sólo hacia — una cuenta archivada desde otro dispositivo (o por el proceso automático) ahora se detecta y deja de ofrecerse como espejo o para reproducir, en vez de seguir usándose sin que este teléfono se entere",
   "required": false
 }
