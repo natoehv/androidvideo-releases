@@ -1,7 +1,7 @@
 {
-  "versionCode": 334,
-  "versionName": "2.2.194",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.194/AndroidVideo.apk",
-  "changelog": "• FuegoCine ya reproduce: servidores de streaming reales de cada película y episodio, y enlaces de descarga\n• FuegoCine: los chips de género del inicio y el filtro \"Género\" de Buscar ya traen resultados (volvían vacíos)\n• FuegoCine: la búsqueda encuentra más (antes los episodios se comían los resultados) y trae las series que sólo aparecían por sus episodios\n• FuegoCine: carga más rápido y \"Mi lista\"/\"Continuar viendo\" reabren los títulos después de reiniciar la app\n• Las fuentes web cuyo sitio no responde se marcan \"momentáneamente fuera de servicio\" en el selector y en Configuración (con botón \"Revisar disponibilidad\")\n• Agenda: entran la Nations League (UEFA y CONCACAF), el Torneo Proyección y el campeonato femenino chileno\n• Espejos: un fallo de la búsqueda ya no se muestra como \"tardó demasiado\" y queda anotado en el diagnóstico\n• Detalle de series: la miniatura del episodio ya no tiene las esquinas redondeadas sueltas",
+  "versionCode": 335,
+  "versionName": "2.2.195",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.195/AndroidVideo.apk",
+  "changelog": "• Inmersivo en TV box: se dejó de cerrar por memoria — el zapeo entre listas ya no carga el catálogo entero de la lista para leer un número, y el diccionario de canales deja de ser el 80% de la memoria que pedía la app\n• Inmersivo: el toque abre el menú lateral a la primera (antes costaba, sobre todo con muchos espejos)\n• \"Continuar viendo\" del menú principal: una película o canal de otra lista ya cambia de lista sola en vez de mostrar \"se bajaron tantos segundos y no alcanza a reproducirse\"\n• Espejos: se auditó el catálogo publicado y se corrigieron cuatro agrupaciones incorrectas (un canal de fútbol de Ecuador ofrecido como CDF de Chile, un alias de Fox Sports 3 mal puesto en ESPN 7, TV+ confundiéndose con Apple TV+/Bloomberg TV+/Sport TV+, y Space con Lost in Space)\n• Espejos: ahora también se filtra por el GRUPO de la lista, no sólo por el nombre del canal (corrige Canal 13 de Argentina apareciendo como espejo del Canal 13 chileno)\n• Lost también se reconoce en español (\"Perdidos\") en 24/7 Series",
   "required": false
 }
