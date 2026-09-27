@@ -1,7 +1,7 @@
 {
-  "versionCode": 337,
-  "versionName": "2.2.197",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.197/AndroidVideo.apk",
-  "changelog": "• Inmersivo: el cajón de canales ya no se demora al abrir cuando hay muchos espejos (100+)\n• Inmersivo: un canal que sí está cargando (los datos llegan) ya no salta al siguiente antes de tiempo — se le da el doble de margen\n• Inmersivo: el salto automático de espejo avisa por qué falló (HTTP, sin datos, no decodifica) en vez de un contador genérico",
+  "versionCode": 338,
+  "versionName": "2.2.198",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.198/AndroidVideo.apk",
+  "changelog": "• Editor de listas: botón \"Copiar/exportar servidores\" — elige servidores, ve cuentas totales/activas/archivadas, copia o guarda un .txt con los servidores limpios\n• Editor de listas: \"Copiar el servidor\" por lista (sólo la URL, sin usuario ni clave)\n• Editor de listas: \"Agregar espejos\" a mano — pega servidores, se validan con una cuenta activa y los que autentican quedan guardados como espejo\n• Editor de listas: detecta dos listas con el MISMO servidor aunque tengan el mismo nombre (caso elmate/galileatv) y permite unificarlas\n• Verificar listas: reconoce una cuenta que ya existe cuando el servidor está guardado como espejo de otra lista",
   "required": false
 }
