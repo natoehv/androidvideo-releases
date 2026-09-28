@@ -1,7 +1,7 @@
 {
-  "versionCode": 338,
-  "versionName": "2.2.198",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.198/AndroidVideo.apk",
-  "changelog": "• Editor de listas: botón \"Copiar/exportar servidores\" — elige servidores, ve cuentas totales/activas/archivadas, copia o guarda un .txt con los servidores limpios\n• Editor de listas: \"Copiar el servidor\" por lista (sólo la URL, sin usuario ni clave)\n• Editor de listas: \"Agregar espejos\" a mano — pega servidores, se validan con una cuenta activa y los que autentican quedan guardados como espejo\n• Editor de listas: detecta dos listas con el MISMO servidor aunque tengan el mismo nombre (caso elmate/galileatv) y permite unificarlas\n• Verificar listas: reconoce una cuenta que ya existe cuando el servidor está guardado como espejo de otra lista",
+  "versionCode": 339,
+  "versionName": "2.2.199",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.199/AndroidVideo.apk",
+  "changelog": "• Perfiles normal y admin: la administración de listas IPTV y la nueva sección \"Usuarios y permisos\" quedan sólo para admin (nato.ehv@gmail.com es admin siempre)\n• Configuración: \"Lista IPTV\" sólo visible para admin, y \"Fuentes de contenido\" pasa a una tarjeta plegable con resumen (activas / fuera de servicio)\n• Hackstore: vuelve a cargar — el sitio cambió de API entera (ahora tmdb.hackstore2.com)\n• Cinecalidad.am y Cinecalidad.vg: vuelven a cargar con la API nueva del sitio (reproducción por Vimeos; ya no ofrecen descargas)\n• Cinecalidad.rs: si el dominio .rs no contesta, sigue por cinecalidad.my\n• Buscar (TV): al volver a entrar con texto ya escrito, el cursor queda al final",
   "required": false
 }
