@@ -1,7 +1,7 @@
 {
-  "versionCode": 341,
-  "versionName": "2.2.201",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.201/AndroidVideo.apk",
-  "changelog": "• Películas/series IPTV: el año, el idioma (LAT/SUB/…) y la calidad salen del nombre y se muestran como tag sobre la carátula, en las grillas, el buscador y Continuar viendo\n• Verificar listas: sondea con un freno por panel (menos bloqueos de IP), contando el catálogo una sola vez por lista\n• Una lista con un 403 viejo vuelve al selector cuando el panel la vuelve a aceptar (desde \"Consultar vencimientos y estado\" o al sincronizar)\n• Control remoto por LAN (mDNS): un teléfono/tablet puede mandarle contenido a un TV box de la misma red aunque sea otra cuenta (el TV pide permiso la primera vez)\n• Cast: una película ya no se ve como \"Ep 1\", y la barra de avance se puede arrastrar para saltar\n• Al volver de un detalle, los carruseles de IPTV retoman el scroll donde estaban\n• Worker: la búsqueda de TMDB limpia mejor el título (marcadores, paréntesis largos, prefijo de país)",
+  "versionCode": 342,
+  "versionName": "2.2.202",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.202/AndroidVideo.apk",
+  "changelog": "• Control remoto por LAN: ahora funciona a la par del anterior — play/pausa, retroceder/adelantar y cambiar de canal en el inmersivo llegan al televisor (antes sólo enviaba el contenido y cambiaba de episodio)",
   "required": false
 }
