@@ -1,7 +1,7 @@
 {
-  "versionCode": 339,
-  "versionName": "2.2.199",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.199/AndroidVideo.apk",
-  "changelog": "• Perfiles normal y admin: la administración de listas IPTV y la nueva sección \"Usuarios y permisos\" quedan sólo para admin (nato.ehv@gmail.com es admin siempre)\n• Configuración: \"Lista IPTV\" sólo visible para admin, y \"Fuentes de contenido\" pasa a una tarjeta plegable con resumen (activas / fuera de servicio)\n• Hackstore: vuelve a cargar — el sitio cambió de API entera (ahora tmdb.hackstore2.com)\n• Cinecalidad.am y Cinecalidad.vg: vuelven a cargar con la API nueva del sitio (reproducción por Vimeos; ya no ofrecen descargas)\n• Cinecalidad.rs: si el dominio .rs no contesta, sigue por cinecalidad.my\n• Buscar (TV): al volver a entrar con texto ya escrito, el cursor queda al final",
+  "versionCode": 340,
+  "versionName": "2.2.200",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.200/AndroidVideo.apk",
+  "changelog": "• Cast: viajan todos los subtítulos del contenido, y se pueden elegir o apagar desde \"Audio y subtítulos\" del mini-player\n• Control remoto: al mandar una película o serie IPTV al televisor, se abre desde la misma lista que en el teléfono\n• Eventos: los que están en vivo también muestran su hora de inicio",
   "required": false
 }
