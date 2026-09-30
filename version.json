@@ -1,7 +1,7 @@
 {
-  "versionCode": 344,
-  "versionName": "2.2.204",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.204/AndroidVideo.apk",
-  "changelog": "• La app queda sólo para usuarios registrados: al crear cuenta el acceso queda pendiente y un administrador lo aprueba o rechaza desde \"Usuarios y permisos\"; sin sesión aparece el ingreso/registro\n• Continuar viendo ahora muestra la calidad del contenido (HD/FHD/4K, 1080p/720p), no sólo el año y el idioma\n• En Android TV las tarjetas de Continuar viendo son más chicas y entran más por fila",
+  "versionCode": 345,
+  "versionName": "2.2.205",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.205/AndroidVideo.apk",
+  "changelog": "Nueva versión 2.2.205",
   "required": false
 }
