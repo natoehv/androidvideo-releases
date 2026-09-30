@@ -1,7 +1,7 @@
 {
-  "versionCode": 343,
-  "versionName": "2.2.203",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.203/AndroidVideo.apk",
-  "changelog": "• Explorar: los eventos en vivo ahora muestran la hora de inicio, un esqueleto mientras cargan y el aviso \"Sin eventos en vivo en este momento\" cuando no hay ninguno\n• Menos títulos IPTV duplicados en la resolución de TMDB del worker: variantes con prefijo de país, marcadores o año colapsan en una, así resuelven póster y datos los que antes quedaban atascados",
+  "versionCode": 344,
+  "versionName": "2.2.204",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.204/AndroidVideo.apk",
+  "changelog": "• La app queda sólo para usuarios registrados: al crear cuenta el acceso queda pendiente y un administrador lo aprueba o rechaza desde \"Usuarios y permisos\"; sin sesión aparece el ingreso/registro\n• Continuar viendo ahora muestra la calidad del contenido (HD/FHD/4K, 1080p/720p), no sólo el año y el idioma\n• En Android TV las tarjetas de Continuar viendo son más chicas y entran más por fila",
   "required": false
 }
