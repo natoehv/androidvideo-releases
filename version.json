@@ -1,7 +1,7 @@
 {
-  "versionCode": 345,
-  "versionName": "2.2.205",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.205/AndroidVideo.apk",
-  "changelog": "Nueva versión 2.2.205",
+  "versionCode": 346,
+  "versionName": "2.2.206",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.206/AndroidVideo.apk",
+  "changelog": "• Reproducción VOD: si una cuenta falla (403/406) prueba otras distintas sin repetir, con aviso y sin apurarse (evita bloqueos), y prioriza la cuenta con más contenido\n• El inmersivo ya no se recarga al terminar de cargar la guía ni salta de lista mientras está cargando; aviso discreto para cambiar de espejo cuando un canal se congela\n• Copiar cuenta copia sólo el enlace; en el editor, las listas con alerta quedan arriba y las sin cuentas activas abajo\n• Opción de ajuste de pantalla (ajustar/llenar/estirar) para el contenido",
   "required": false
 }
