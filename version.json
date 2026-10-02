@@ -1,7 +1,7 @@
 {
-  "versionCode": 347,
-  "versionName": "2.2.207",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.207/AndroidVideo.apk",
-  "changelog": "• Espejos: en canales muy populares (como Canal 13) ya no se cuelga ni se cierra la app en el TV box al abrir la lista de espejos; además se recuerda el orden para que abrir el panel de nuevo sea instantáneo",
+  "versionCode": 348,
+  "versionName": "2.2.208",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.208/AndroidVideo.apk",
+  "changelog": "• Nueva opción por lista \"Chequear cantidad de contenido\": cuenta películas y series de cada cuenta y la usa para elegir siempre la cuenta con más contenido al reproducir\n• El verificador de listas ahora también muestra la cantidad de series",
   "required": false
 }
