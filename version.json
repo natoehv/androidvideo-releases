@@ -1,7 +1,7 @@
 {
-  "versionCode": 346,
-  "versionName": "2.2.206",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.206/AndroidVideo.apk",
-  "changelog": "• Reproducción VOD: si una cuenta falla (403/406) prueba otras distintas sin repetir, con aviso y sin apurarse (evita bloqueos), y prioriza la cuenta con más contenido\n• El inmersivo ya no se recarga al terminar de cargar la guía ni salta de lista mientras está cargando; aviso discreto para cambiar de espejo cuando un canal se congela\n• Copiar cuenta copia sólo el enlace; en el editor, las listas con alerta quedan arriba y las sin cuentas activas abajo\n• Opción de ajuste de pantalla (ajustar/llenar/estirar) para el contenido",
+  "versionCode": 347,
+  "versionName": "2.2.207",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.207/AndroidVideo.apk",
+  "changelog": "• Espejos: en canales muy populares (como Canal 13) ya no se cuelga ni se cierra la app en el TV box al abrir la lista de espejos; además se recuerda el orden para que abrir el panel de nuevo sea instantáneo",
   "required": false
 }
