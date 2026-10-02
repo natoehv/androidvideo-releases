@@ -1,7 +1,7 @@
 {
-  "versionCode": 349,
-  "versionName": "2.2.209",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.209/AndroidVideo.apk",
-  "changelog": "• Chequear cantidad de contenido ahora también por cuenta específica (además de la lista completa), para revisar una sola",
+  "versionCode": 350,
+  "versionName": "2.2.210",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.210/AndroidVideo.apk",
+  "changelog": "• Al expandir una lista, cada cuenta muestra cuánto contenido tiene medido (o \"sin medir\"), para saber cuáles ya se procesaron",
   "required": false
 }
