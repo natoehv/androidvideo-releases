@@ -1,7 +1,7 @@
 {
-  "versionCode": 350,
-  "versionName": "2.2.210",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.210/AndroidVideo.apk",
-  "changelog": "• Al expandir una lista, cada cuenta muestra cuánto contenido tiene medido (o \"sin medir\"), para saber cuáles ya se procesaron",
+  "versionCode": 351,
+  "versionName": "2.2.211",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.211/AndroidVideo.apk",
+  "changelog": "• Mejor armado de listas: el canal \"El Gourmet\" ahora se reconoce también cuando las listas lo nombran sólo \"gourmet\"\n• El contenido medido por cuenta se muestra junto al vencimiento",
   "required": false
 }
