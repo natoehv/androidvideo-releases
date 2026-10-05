@@ -1,7 +1,7 @@
 {
-  "versionCode": 351,
-  "versionName": "2.2.211",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.211/AndroidVideo.apk",
-  "changelog": "• Mejor armado de listas: el canal \"El Gourmet\" ahora se reconoce también cuando las listas lo nombran sólo \"gourmet\"\n• El contenido medido por cuenta se muestra junto al vencimiento",
+  "versionCode": 352,
+  "versionName": "2.2.212",
+  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.212/AndroidVideo.apk",
+  "changelog": "• Hackstore y Cinecalidad .am/.vg vuelven a funcionar (los sitios dejaron el modo lite); Hackstore con pestaña de descarga.\n• \"Ver más\" en Recientes/Nuevos ahora continúa desde donde está el carrusel.\n• Al volver de una serie ya no se recarga ni se pierde el scroll (.rs/.vg).\n• VOE: el video arranca solo, sin tener que tocar el ▶ del centro.\n• La app ya no se bloquea al abrir si se agota la cuota de Firebase.",
   "required": false
 }
