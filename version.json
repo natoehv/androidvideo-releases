@@ -1,7 +1,7 @@
 {
-  "versionCode": 354,
-  "versionName": "2.2.214",
-  "apkUrl": "https://github.com/natoehv/androidvideo-releases/releases/download/v2.2.214/AndroidVideo.apk",
-  "changelog": "v2.2.214\n• \"Mi lista\" y las Listas se ven por título: el mismo contenido guardado desde varias fuentes aparece una vez, con su carátula de TMDB, y al abrirlo muestra dónde verlo.\n• Nueva lista \"Vistos\": se marca a mano o sola al terminar una película.\n• Se recuperan los favoritos de Hackstore que se habían roto.\n• Buscador en \"editar listas IPTV\" (nombre, servidor, espejos, cuentas).\n• Arreglos al enviar/compartir contenido a otro equipo (una película ya no llega como serie) y a la búsqueda de Hackstore.",
+  "versionCode": 355,
+  "versionName": "2.2.215",
+  "apkUrl": "https://github.com/customapps863-ux/androidvideo-releases/releases/download/v2.2.215/AndroidVideo.apk",
+  "changelog": "v2.2.215\n.",
   "required": false
 }
